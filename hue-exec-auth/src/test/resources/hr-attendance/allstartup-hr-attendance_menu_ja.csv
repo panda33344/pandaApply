@@ -1,0 +1,15 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+Employee Service > 勤怠 > 打刻,,,hr_attclockinout.TimeStampPage,ATT2329,all12345,y,打刻
+Employee Service > 勤怠 > 勤怠管理,,,hr_attendance.SelfAttendancePortalPage,ATT2329,all12345,y,勤怠管理
+Employee Service > 勤怠 > 勤怠管理,ALL_APP,年次有給休暇申請,hr_attendance.VacationReportAnnualPtoInputPage,ATT2329,all12345,y,年次有給休暇申請
+Employee Service > 勤怠 > 勤怠管理,ALL_APP,残業申請,hr_attendance.OvertimeWorkPlanInputPage,ATT2329,all12345,y,残業申請
+Employee Service > 勤怠 > 勤怠管理,ALL_APP,休日出勤申請,hr_attendance.HolidayWorkPlanInputPage,ATT2329,all12345,y,休日出勤申請
+Employee Service > 勤怠 > 勤怠管理,ALL_APP,勤務変更申請,hr_attendance.ChangeWorkPlanInputPage,ATT2329,all12345,y,勤務変更申請
+Employee Service > 勤怠 > 勤怠管理,ALL_APP,欠勤申請,hr_attendance.AbsenceApplicationInputPage,ATT2329,all12345,y,欠勤申請
+Tools > 承認トレイ,SIDE_MENU,日次勤怠,approval.ApprovalTrayDailyAttendancePage,ATT2329,all12345,y,日次承認
+Tools > 承認トレイ,SIDE_MENU,月次勤怠,approval.ApprovalTrayMonthlyAttendancePage,ATT2329,all12345,y,月次承認

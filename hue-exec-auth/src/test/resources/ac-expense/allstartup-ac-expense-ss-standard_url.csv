@@ -1,0 +1,35 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+ac_expense.ServiceSettingsAcExpenseCorporateCardStandardPage,QA-autotest-apply,passw0rd,y,サービス設定-コーポレートカード精算 / Service Setting - CorporateCard Application
+ac_expense.ServiceSettingsAcExpenseCorporateCardStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,社内ルール-コーポレートカード精算 / Company rules - CorporateCard Application
+ac_expense.ServiceSettingsAcExpenseShortTransStandardPage,QA-autotest-apply,passw0rd,y,サービス設定-交通費精算 / Service Setting -? Transportation Expense Application
+ac_expense.ServiceSettingsAcExpenseShortTransStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,社内ルール-交通費精算 / Company rules - Transportation
+ac_expense.ServiceSettingsAcExpenseShortTransStandardEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-交通費精算-入力を便利にする / Service Setting - Short Trans Standard - Easy input
+ac_expense.ServiceSettingsAcExpenseDomesticBizTripStandardPage,QA-autotest-apply,passw0rd,y,サービス設定-国内出張精算 / Service Setting - Domestic Business Trip Application
+ac_expense.ServiceSettingsAcExpenseDomesticBizTripStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,社内ルール-国内出張精算 / Company rules - Business Trip
+ac_expense.ServiceSettingsAcExpenseDomesticBizTripStandardEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-国内出張精算-入力を便利にする / Service Setting - Domestic Business Trip Application - Easy input
+ac_expense.ServiceSettingsAcExpenseOverseasBizTripStandardPage,QA-autotest-apply,passw0rd,y,サービス設定-海外出張精算 / Service Setting - Overseas Business Trip Application
+ac_expense.ServiceSettingsAcExpenseOverseasBizTripStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,社内ルール-海外出張精算 / Company rules - Foreign Business Trip
+ac_expense.ServiceSettingsAcExpenseOverseasBizTripAdvanceRequestStandardEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-海外出張精算-入力を便利にする / Service Setting - Overseas Business Trip Application - Easy input
+ac_expense.ServiceSettingsAcExpenseLongTermOverseasBusinessTripPage,QA-autotest-apply,passw0rd,y,サービス設定-長期海外出張精算 / Service Setting - Long Term Overseas Business Trip Application
+ac_expense.ServiceSettingsAcExpenseLongTermOverseasBusinessTripCompanyRulesPage,QA-autotest-apply,passw0rd,y,社内ルール-長期海外出張精算 / Company rules - Long Term Foreign Business Trip
+ac_expense.ServiceSettingsAcExpenseOverseasLongTermBizTripStandardEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-長期海外出張精算-入力を便利にする / Service Setting - Long Term Overseas Business Trip Application - Easy input
+ac_expense.ServiceSettingsAcExpenseEntertainmentStandardPage,QA-autotest-apply,passw0rd,y,サービス設定-接待交際費精算 / Service Setting -? Entertainment Expenses
+ac_expense.ServiceSettingsAcExpenseEntertainmentStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,社内ルール-接待交際費精算 / Company rules - Entertainment
+ac_expense.ServiceSettingsAcExpenseEntertainmentStandardEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-接待交際費精算-入力を便利にする / Service Setting - Entertainment Expenses - Easy input
+ac_expense.ServiceSettingsAcExpenseGeneralStandardPage,QA-autotest-apply,passw0rd,y,サービス設定-一般経費精算 / Service Setting -? General Expense Application
+ac_expense.ServiceSettingsAcExpenseGeneralStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,社内ルール-一般経費精算 / Company rules - General Expense
+ac_expense.ServiceSettingsAcExpenseGeneralStandardEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-一般経費精算-入力を便利にする / Service Setting - General Expense Application - Easy input
+ac_expense.ServiceSettingsAcExpenseGeneralTaxiStandardPage,QA-autotest-apply,passw0rd,y,サービス設定-タクシー精算 / Service Setting -? Taxi Expense Application
+ac_expense.ServiceSettingsAcExpenseGeneralTaxiStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,社内ルール-タクシー精算 / Company rules - Taxi
+ac_expense.ServiceSettingsAcExpenseGeneralTaxiStandardEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-タクシー精算-入力を便利にする / Service Setting - Taxi Expense Application - Easy input
+ac_expense.ServiceSettingsAcExpenseCarStandardPage,QA-autotest-apply,passw0rd,y,サービス設定-自動車経費申請 / Service Setting - Car Expense Application
+ac_expense.ServiceSettingsAcExpenseCarStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,社内ルール-自動車精算 / Company rules - Car
+ac_expense.ServiceSettingsAcExpenseCarStandardEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-自動車精算-入力を便利にする / Service Setting - Car - Easy input
+ac_expense.ServiceSettingsAcExpenseReportStandardPage,QA-autotest-apply,passw0rd,y,サービス設定-経費精算レポート / Service Setting - Expense Report
+ac_expense.ServiceSettingsAcExpenseReportStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,社内ルール-経費精算レポート / Company rules - Car Expense Application
+ac_expense.ServiceSettingsAcExpenseReportStandardEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-経費精算レポート-入力を便利にする / Service Setting - Report - Easy input
+ac_expense.ServiceSettingsAcExpenseEquipmentPurchaseStandardPage,QA-autotest-apply,passw0rd,y,サービス設定-備品購入精算 / Service Setting-Equipment Purchase
+ac_expense.ServiceSettingsAcExpenseEquipmentPurchaseStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,社内ルール-備品購入精算 / Company rules - Equipment Purchase
+ac_expense.ServiceSettingsAcExpenseEquipmentPurchaseStandardEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-備品購入精算-入力を便利にする / Service Setting-Equipment Purchase - Easy input
+ac_expense.ServiceSettingsAcExpensePayrequestNewApplyForFieldStandardPage,QA-autotest-apply,passw0rd,y,サービス設定-請求書支払申請(現場用） / Service Setting-Invoice Payment Request(for field)

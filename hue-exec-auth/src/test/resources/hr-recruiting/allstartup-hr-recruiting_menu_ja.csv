@@ -1,0 +1,22 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+# -- List Page --
+HCM > 採用 > タレントデータベース,,,hr_recruiting.RecruitingApplicantListPage,hue-root,hue-r00t,y,タレント データベース / Talent Database
+HCM > 採用 > 応募者リスト,,,hr_recruiting.RecruitingCandidateListPage,hue-root,hue-r00t,y,応募者リスト / Candidate List
+HCM > 採用 > 募集職種リスト,,,hr_recruiting.RecruitingJobListPage,hue-root,hue-r00t,y,募集職種リスト / Job List
+HCM > 採用 > メールテンプレートリスト,,,hr_recruiting.RecruitingMailTemplateListPage,hue-root,hue-r00t,y,メールテンプレートリスト / Mail Template List
+HCM > 採用 > 採用イベント管理,,,hr_recruiting.RecruitingEventPage,hue-root,hue-r00t,y,採用イベント管理 / Recruiting Event Management
+HCM > 採用 > 内定書類出力管理,,,hr_recruiting.RecruitingOfferingLetterPage,hue-root,hue-r00t,y,内定書類出力管理 / Offering Letter Management
+HCM > 採用 > オンボーディング管理,,,hr_recruiting.RecruitingOnboardingManagementPage,hue-root,hue-r00t,y,オンボーディング管理 / Onboarding Management
+HCM > 採用 > インターンシップ管理,,,hr_recruiting.RecruitingInternshipManagementPage,hue-root,hue-r00t,y,インターンシップ管理 / Internship Management
+HCM > 採用 > オンボーディングプロセス設定 > 提出書類グループ管理,,,hr_recruiting.RecruitingOnboardingFormGroupManagementPage,hue-root,hue-r00t,y,提出書類グループ管理 / Onboarding Form Group Management
+Employee Service > 入社手続き,,,hr_recruiting.RecruitingOnboardingProcedurePage,hue-root,hue-r00t,y,入社手続き / Onboarding Procedure
+# -- Input Page --
+HCM > 採用 > 応募者リスト,APP,応募者情報の追加,hr_recruiting.RecruitingApplicantInputPage,ATT2329,all12345,y,応募者情報登録 / Recruiting Applicant Input
+HCM > 採用 > 募集職種リスト,APP,募集職種情報の追加,hr_recruiting.RecruitingJobProfileInputPage,hue-root,hue-r00t,y,募集職種情報登録 / Job Profile Input
+HCM > 採用 > メールテンプレートリスト,APP,メールテンプレート新規作成,hr_recruiting.RecruitingMailTemplateSettingPage,hue-root,hue-r00t,y,メールテンプレート編集 / Mail Template Setting
+HCM > 採用 > 採用イベント管理,APP,イベント新規作成,hr_recruiting.RecruitingEventProfileInputPage,hue-root,hue-r00t,y,採用イベント新規作成 / Create Recruiting Event

@@ -1,0 +1,15 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+#Construction > 調達管理 > 購入依頼管理,,,scm_procurement.ScmProcurementPurchaseRequestManagementMainPortalPage,hue-root,hue-r00t,y,購入依頼管理 / Purchase Request Management
+#Construction > 調達管理 > 購入依頼管理,APP,特注品購買,scm_procurement.ScmProcurementCustomOrderPurchaseIndustrialPartsPage,hue-root,hue-r00t,y,特注品購買 / Purchase Request Application
+#Construction > 調達管理 > 見積管理,,,scm_procurement.ScmProcurementQuotationPortalPage,QA-autotest-apply,passw0rd,y,見積管理 / Quotation Management
+#Construction > 調達管理 > 見積管理,APP,本見積依頼（承認フローなし）,scm_procurement.ScmProcurementQuotationRequestRegistrationPage,QA-autotest-apply,passw0rd,y,本見積依頼（承認フローなし） / Request for Quotation(without Approval Flow)
+#Construction > 調達管理 > 発注管理,,,scm_procurement.ScmProcurementOrderManagementPortalPage,QA-autotest-apply,passw0rd,y,発注管理 / Order Management
+#Construction > 調達管理 > 発注管理,APP,発注申請,scm_procurement.ScmProcurementPurchaseOrderRegistrationPage,QA-autotest-apply,passw0rd,y,発注申請 / Purchase Order Application
+#Construction > 調達管理 > 購入依頼管理,APP,役務契約,scm_procurement.ScmProcurementCustomOrderPurchaseServicePurchasePage,QA-autotest-apply,passw0rd,y,役務契約 / Purchase Request Application
+#Construction > 調達管理 > 出来高管理,,,scm_procurement.ScmProgressBasedInspectionManagementPortalPage,QA-autotest-apply,passw0rd,y,出来高管理 / Progress-Based Inspection Management
+#Construction > 調達管理 > 立替金登録管理,,,scm_procurement.PlannedOffsetReportManagementPage,QA-autotest-apply,passw0rd,y,立替金登録管理 / Offset Schedule Report Management

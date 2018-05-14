@@ -1,0 +1,6 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+ac_expensemst.EmpExpenseBankAccountMasterMaintanencePage,QA-autotest-apply,passw0rd,y,従業員経費口座マスタメンテナンス / Emp Expense Bank Account Master Maintenance
+ac_expensemst.ExpenseProjectMasterMaintenancePage,QA-autotest-apply,passw0rd,y,経費プロジェクトマスタメンテナンス / Expense Project Master Maintenance
+ac_expensemst.RegularTempPayDistributionMasterMaintenancePage,QA-autotest-apply,passw0rd,y,仮払金定期支給マスタメンテナンス / Regular Temporary Payment Distribution Master Maintenance
+ac_expensemst.AllowanceDivisionMasterMaintenancePage,QA-autotest-apply,passw0rd,y,手当区分マスタメンテナンス / Allowance Division Master Maintenance

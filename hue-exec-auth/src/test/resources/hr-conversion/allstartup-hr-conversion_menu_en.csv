@@ -1,0 +1,10 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+HCM > Human Resource and Payroll,,,hue.CjkPage,hue-root,hue-r00t,y,その他（CJK）
+HCM > HR Core > Talent Management,,,hue.CtmPage,hue-root,hue-r00t,y,その他（CTM）
+Employee Service > HR Self Workflow > Self Workflow Menu,,,hue.CwsMainMenuPage,hue-root,hue-r00t,y,その他（CWS_MainMenu）
+Employee Service > HR Self Workflow > Self Workflow,,,hue.MenuEmployeeRootCwsPage,QA-autotest-apply,passw0rd,y,その他（CWS）

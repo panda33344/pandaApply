@@ -1,0 +1,9 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#scm_trade.ScmExportJudgmentPortalPage,scmauto_pay002,passw0rd,y,輸出審査管理 / Export Judgement Management
+#scm_trade.ScmExportShipmentPortalPage,scmauto_pay002,passw0rd,y,輸出出荷管理 / Export Shipment
+#scm_trade.ScmTradeExportShipmentRequestPortalPage,scmauto_pay002,passw0rd,y,輸出出荷依頼 / Export Shipment Request
+#scm_trade.ScmTradeImportGoodsReceiptPortalPage,scmauto_pay002,passw0rd,y,輸入入荷管理 / Import Goods Receipt
+#scm_trade.ScmTradeImportGoodsReceiptDeliveryScheduleRegistrationPage,scmauto_pay002,passw0rd,y,入荷予定登録 / Delivery Schedule Registration
+#scm_trade.ScmTradeImportGoodsReceiptShippingNotificationRegistrationPage,scmauto_pay002,passw0rd,y,船積通知登録 / Shipping Notification Registration
+#scm_trade.ScmTradeImportGoodsReceiptBLAWBRegistrationPage,scmauto_pay002,passw0rd,y,B/L・AWB登録 / BL・AWB Registration

@@ -1,0 +1,11 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+#Construction > 販売管理 > 工事請負契約管理,,,scm_sales.SemSalesSalesContractManagementPortalPage,QA-autotest-apply,passw0rd,y,販売契約管理 / Sales Contract Management
+#Construction > 販売管理 > 工事請負契約管理,APP,工事契約登録,scm_sales.ScmSalesContractRegistrationContractRegistrationPage,QA-autotest-apply,passw0rd,y,工事契約登録 / Construction Contract Registration
+#Construction > 販売管理 > 工事請負契約管理,APP,未契約受注登録,scm_sales.ScmSalesContractRegistrationUnContractOrderEntryPage,QA-autotest-apply,passw0rd,y,未契約受注登録 / Uncontracted Sales Order Registration
+#Construction > 販売管理 > 受注管理,,,scm_sales.ScmSalesOrderSreceivedManagementPortalPage,QA-autotest-apply,passw0rd,y,受注管理 / Orders Received Management
+#Construction > 販売管理 > 受注管理,APP,注文入力,scm_sales.ScmSalesORMBasicPage,QA-autotest-apply,passw0rd,y,注文入力 / Order Entry

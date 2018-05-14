@@ -1,0 +1,11 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+AC > Business Common > Electronic Books Maintenance Management > Electronic Books Maintenance Management (Invoices),,,ac_ebm.AcEbmInvoicesStandardPage,QA-autotest-apply,passw0rd,y,電子帳簿保存管理(請求書) / Electronic Book Maintenance Management (Invoices)
+AC > Business Common > Electronic Books Maintenance Management > Electronic Books Maintenance Management (Receipts),,,ac_ebm.AcEbmReceiptsStandardPage,QA-autotest-apply,passw0rd,y,電子帳簿保存管理 (領収書) / Electronic Book Management Maintenance (RECEIPT)
+AC > Business Common > Electronic Books Maintenance Management > Electronic Books Maintenance Management (Journals),,,ac_ebm.AcEbmJournalsStandardPage,QA-autotest-apply,passw0rd,y,電子帳簿保存管理(証憑) / Electronic Books Maintenance Management (Journals)
+AC > Business Common > Electronic Books Maintenance Management > Timestamp Batch Verification Results (Receipt),,,ac_ebm.TimestampBatchReceiptsStandardPage,QA-autotest-apply,passw0rd,y,電子帳簿タイムスタンプ検証（領収書） / Timestamp Batch Verification Results (Receipt)
+AC > Business Common > Electronic Books Maintenance Management > Timestamp Batch Verification Results (Invoice),,,ac_ebm.TimestampBatchInvoicesStandardPage,QA-autotest-apply,passw0rd,y,電子帳簿タイムスタンプ検証（請求書） / Timestamp Batch Verification Results (Invoice)

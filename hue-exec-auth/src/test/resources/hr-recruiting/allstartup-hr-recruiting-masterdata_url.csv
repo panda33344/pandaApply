@@ -1,0 +1,30 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+# -- List Page --
+hr_recruiting.RecruitingMasterDataMaintenanceSchoolsPage,QA-autotest-apply,passw0rd,y,学校データメンテナンス（採用） / School Data Maintenance (Recruiting)
+hr_recruiting.RecruitingMasterDataMaintenanceSkillsPage,QA-autotest-apply,passw0rd,y,スキルデータメンテナンス（採用） / Skill Data Maintenance (Recruiting)
+hr_recruiting.RecruitingMasterDataMaintenanceDepartmentsPage,QA-autotest-apply,passw0rd,y,学部データメンテナンス（採用） / Department Data Maintenance (Recruiting)
+hr_recruiting.RecruitingMasterDataMaintenanceFieldsPage,QA-autotest-apply,passw0rd,y,学科データメンテナンス（採用） / Field Data Maintenance (Recruiting)
+hr_recruiting.RecruitingMasterDataMaintenanceCertificationsPage,QA-autotest-apply,passw0rd,y,資格データメンテナンス（採用） / Certification Data Maintenance (Recruiting)
+hr_recruiting.RecruitingMasterDataMaintenanceIndustriesPage,QA-autotest-apply,passw0rd,y,業界データメンテナンス（採用） / Industry Data Maintenance (Recruiting)
+hr_recruiting.RecruitingMasterDataMaintenanceLocationsPage,QA-autotest-apply,passw0rd,y,ロケーションデータメンテナンス（採用） / Location  Data Maintenance (Recruiting)
+hr_recruiting.RecruitingMasterDataMaintenanceCategoriesPage,QA-autotest-apply,passw0rd,y,職種データメンテナンス（採用） / Category Data Maintenance (Recruiting)
+hr_recruiting.RecruitingMasterDataMaintenanceFamiliesPage,QA-autotest-apply,passw0rd,y,職群データメンテナンス（採用） / Family Data Maintenance (Recruiting)
+hr_recruiting.RecruitingMasterDataMaintenanceChannelsPage,QA-autotest-apply,passw0rd,y,採用媒体データメンテナンス（採用） / Recruiting Route Data Maintenance (Recruiting)
+hr_recruiting.RecruitingMasterDataMaintenanceDegreesPage,QA-autotest-apply,passw0rd,y,学位データメンテナンス（採用） / Degree Data Maintenance (Recruiting)
+hr_recruiting.RecruitingMasterDataMaintenanceMajorsPage,QA-autotest-apply,passw0rd,y,専攻分野データメンテナンス（採用） / Major Data Maintenance (Recruiting)
+hr_recruiting.RecruitingMasterDataMaintenanceWorkingofficesPage,QA-autotest-apply,passw0rd,y,オフィスデータメンテナンス（採用） / Office Data Maintenance (Recruiting)
+# -- Detail Add Page --
+hr_recruiting.RecruitingMasterDataMaintenanceDetailSchoolAddPage,QA-autotest-apply,passw0rd,y,学校データメンテナンス / School Data Maintenance
+hr_recruiting.RecruitingMasterDataMaintenanceDetailSkillAddPage,QA-autotest-apply,passw0rd,y,スキルデータメンテナンス / Skill Data Maintenance
+hr_recruiting.RecruitingMasterDataMaintenanceDetailDepartmentAddPage,QA-autotest-apply,passw0rd,y,学部データメンテナンス / Department Data Maintenance
+hr_recruiting.RecruitingMasterDataMaintenanceDetailFieldAddPage,QA-autotest-apply,passw0rd,y,学科データメンテナンス / Field Data Maintenance
+hr_recruiting.RecruitingMasterDataMaintenanceDetailCertificationAddPage,QA-autotest-apply,passw0rd,y,資格データメンテナンス / Certification Data Maintenance
+hr_recruiting.RecruitingMasterDataMaintenanceDetailIndustryAddPage,QA-autotest-apply,passw0rd,y,業界データメンテナンス / Industry Data Maintenance
+hr_recruiting.RecruitingMasterDataMaintenanceDetailLocationAddPage,QA-autotest-apply,passw0rd,y,対象エリア / Target Area
+hr_recruiting.RecruitingMasterDataMaintenanceDetailCategoryAddPage,QA-autotest-apply,passw0rd,y,職種データメンテナンス / Category Data Maintenance
+hr_recruiting.RecruitingMasterDataMaintenanceDetailFamilyAddPage,QA-autotest-apply,passw0rd,y,職群データメンテナンス / Family Data Maintenance
+hr_recruiting.RecruitingMasterDataMaintenanceDetailChannelAddPage,QA-autotest-apply,passw0rd,y,採用経路メンテナンス / Recruiting Route Data Maintenance
+hr_recruiting.RecruitingMasterDataMaintenanceDetailDegreeAddPage,QA-autotest-apply,passw0rd,y,学位データメンテナンス / Degree Data Maintenance
+hr_recruiting.RecruitingMasterDataMaintenanceDetailMajorAddPage,QA-autotest-apply,passw0rd,y,専攻分野データメンテナンス / Major Data Maintenance
+hr_recruiting.RecruitingMasterDataMaintenanceDetailWorkingofficeAddPage,QA-autotest-apply,passw0rd,y,オフィスデータメンテナンス / Working Office Data Maintenance

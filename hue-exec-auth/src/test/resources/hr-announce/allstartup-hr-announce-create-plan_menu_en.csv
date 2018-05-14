@@ -1,0 +1,17 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+HCM > HR Core > Announce Portal > Announce Manager,ALL_APP,create Employment announcement plan,hr_announce.HrAnnounceEmploymentPlanInputPage,QA-autotest-apply,passw0rd,y,雇用発令予定 / Employment Announcement Plan
+HCM > HR Core > Announce Portal > Announce Manager,ALL_APP,create Transfer announcement plan,hr_announce.HrAnnounceTransferPlanInputPage,QA-autotest-apply,passw0rd,y,異動発令予定 / Transfer Announcement Plan
+HCM > HR Core > Announce Portal > Announce Manager,ALL_APP,create Promotion announcement plan,hr_announce.HrAnnouncePromotionPlanInputPage,QA-autotest-apply,passw0rd,y,昇格発令予定 / Promotion Announcement Plan
+HCM > HR Core > Announce Portal > Announce Manager,ALL_APP,create Secondment announcement plan,hr_announce.HrAnnounceSecondmentPlanInputPage,QA-autotest-apply,passw0rd,y,出向発令予定 / Secondment Announcement Plan
+HCM > HR Core > Announce Portal > Announce Manager,ALL_APP,create Return from secondment announcement plan,hr_announce.HrAnnounceReturnFromSecondmentPlanInputPage,QA-autotest-apply,passw0rd,y,出向復帰発令予定 / Return from Secondment Announcement Plan
+HCM > HR Core > Announce Portal > Announce Manager,ALL_APP,create Leave announcement plan,hr_announce.HrAnnounceLeavePlanInputPage,QA-autotest-apply,passw0rd,y,休職発令予定 / Leave Announcement Plan
+HCM > HR Core > Announce Portal > Announce Manager,ALL_APP,create Return from leave announcement plan,hr_announce.HrAnnounceReturnFromLeavePlanInputPage,QA-autotest-apply,passw0rd,y,休職復帰発令予定 / Return from Leave Announcement Plan
+HCM > HR Core > Announce Portal > Announce Manager,ALL_APP,create Retirement announcement plan,hr_announce.HrAnnounceRetirementPlanInputPage,QA-autotest-apply,passw0rd,y,退職発令予定 / Retirement Announcement Plan
+HCM > HR Core > Announce Portal > Announce Manager,ALL_APP,create Re Employment announcement plan,hr_announce.HrAnnounceReEmploymentPlanInputPage,QA-autotest-apply,passw0rd,y,再雇用発令予定 / Re-Employment Announcement Plan
+HCM > HR Core > Announce Portal > Announce Manager,ALL_APP,create Assignment announcement plan,hr_announce.HrAnnounceAssignmentPlanInputPage,QA-autotest-apply,passw0rd,y,登用発令予定 / Assignment Announcement Plan
+HCM > HR Core > Announce Portal > Announce Manager,ALL_APP,create Other announcement plan,hr_announce.HrAnnounceOtherPlanInputPage,QA-autotest-apply,passw0rd,y,その他発令予定 / Announcement Plan of the Others

@@ -1,0 +1,12 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo,subsystem
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。,サブシステム
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+#-----BT-----
+Tools > Service Settings,,,hue.ServiceSettingsPage,QA-autotest-apply,passw0rd,y,ServiceSettings,subsystem-A
+Tools > Security Portal > IP Restriction Setting,,,hue.ServiceIpRestrictionSettingPage,QA-autotest-apply,passw0rd,y,社外アクセス制限設定 / Security Portal,subsystem-A
+Tools > Security Portal > Inhouse IP Setting,,,hue.IpAddressSettingPage,QA-autotest-apply,passw0rd,y,社内IPアドレス設定 / Inhouse IP Setting,subsystem-A
+Tools > Security Portal > Authority Maintenance,,,hue.ExecuteAuthoritySettingsPage,QA-autotest-apply,passw0rd,y,権限管理 - 一覧 / Authority Maintenance - Role List,subsystem-A
+Tools > Security Portal > Session Management,,,hue.SessionListPage,QA-autotest-apply,passw0rd,y,セッション管理 / Session Management,subsystem-B

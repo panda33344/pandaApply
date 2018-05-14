@@ -1,0 +1,10 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+AC > Business Common > Foreign Exchange Hedge Management > Foreign Exchange Hedge Request Management,,,ac_exchange.HedgerequestmanagementPage,QA-autotest-apply,passw0rd,y,為替予約依頼管理 / Foreign Exchange Reservation Request Management
+AC > Business Common > Foreign Exchange Hedge Management > Foreign Exchange Hedge Request Management,APP,Exchange Contract Request,ac_exchange.ExchangeHedgeRequestInputPage,QA-autotest-apply,passw0rd,y,為替予約依頼 / Foreign Exchange Contract Request
+AC > Business Common > Foreign Exchange Hedge Management > Foreign Exchange Hedge DashBoard,,,ac_exchange.CurrencyexchangemanagementPage,QA-autotest-apply,passw0rd,y,為替ヘッジ管理 / Foreign Exchange Hedge Management
+AC > Business Common > Foreign Exchange Hedge Management > Foreign Exchange Hedge DashBoard,APP,Register Contract Record,ac_exchange.ExchangeContractRegisterInputPage,QA-autotest-apply,passw0rd,y,契約実績登録 / Foreign Exchange Contract Register Input

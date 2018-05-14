@@ -1,0 +1,10 @@
+menuTypeInGlobalNavi,pathInGlobalNavi,pageObjectClass,user,password,memo
+# グローバルナビのメニュータイプ,グローバルナビ内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,レポート上に表示される項目。テスト実行には影響しない。
+#ICON: グローバルナビ内の各アイコン,,,,,,
+#USER: ユーザーメニューの各アイテム,,,,,
+#----BT-----
+USER,Settings,hue.ProfileMainPage,QA-autotest-apply,passw0rd,設定 / Settings
+USER,About HUE,hue.LicensePage,QA-autotest-apply,passw0rd,HUEについて / About HUE
+ICON,menulist,hue.SideMenuPage,QA-autotest-apply,passw0rd,Side Menu
+#----Collabo-----
+ICON,bubble,hue.HUETalkBoxPage,QA-autotest-apply,passw0rd,HUE Talk

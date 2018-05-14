@@ -1,0 +1,6 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+layout_designer.TextResourceMaintenancePage,QA-autotest-apply,passw0rd,y,テキストリソース管理 / Text Resource Maintenance
+layout_designer.ManageCharSetPage,QA-autotest-apply,passw0rd,y,入力許可文字セットマスタメンテナンス / Input-Allowed Character Set Master Maintenance
+layout_designer.ServiceItemManagementSettingsAcGlJournalEntryPage,QA-autotest-apply,passw0rd,y,サービス項目設定 / Service Item Maintenance
+layout_designer.BasicValidationPage,4087,passw0rd,y,入力制御設定 / Input Control Maintenance

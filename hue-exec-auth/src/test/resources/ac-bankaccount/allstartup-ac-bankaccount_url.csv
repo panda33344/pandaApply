@@ -1,0 +1,4 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+ac_bankaccount.AcBankAccountManagementPage,QA-autotest-apply,passw0rd,y,銀行口座管理 / Bank Account Management
+ac_bankaccount.ServiceSettingAcBankaccountBankReconciliationStandardPage,QA-autotest-apply,passw0rd,y,サービス設定-銀行口座調整表 / Bank Account Management

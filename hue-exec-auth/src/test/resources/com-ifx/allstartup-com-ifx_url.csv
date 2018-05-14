@@ -1,0 +1,7 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+com_ifx.InterfacelistPage,QA-autotest-apply,passw0rd,y,インターフェース設計 / Interface Designer
+com_ifx.DataConverterPage,QA-autotest-apply,passw0rd,y,データ変換 / Data Converter
+com_ifx.GlobalSettingPage,QA-autotest-apply,passw0rd,y,通知設定 / Notification Setting
+com_ifx.IfxPgpEncryptionKeyIndexPage,QA-autotest-apply,passw0rd,y,暗号化設定 / Encryption Setting
+com_ifx.IfxExternalApiSettingIndexPage,QA-autotest-apply,passw0rd,y,外部API設定 / External API Setting

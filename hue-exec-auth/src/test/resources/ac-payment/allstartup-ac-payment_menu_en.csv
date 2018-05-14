@@ -1,0 +1,15 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+AC > Expense > Payment Management,,,ac_payment.AcPaymentPortalPage,QA-autotest-payment,passw0rd,y,支払管理 / Payment Management (1)
+AC > Accounts Payable > Payment Management,,,ac_payment.AcPaymentPortalPage,QA-autotest-payment,passw0rd,y,支払管理 / Payment Management (2)
+AC > Expense > Payment Management,SIDE_MENU, Related menu > Payment Reference,ac_payment.PaymentReferencePage,QA-autotest-payment,passw0rd,y,支払実績照会 / Payment Reference
+AC > Accounts Payable > Payment Management,APP,Cash Withdrawal Registration,ac_payment.AcPaymentCashWithdrawalRegistrationStandardPage,QA-autotest-payment,passw0rd,y,現金出金実績登録 / Cash Withdrawal Registration
+AC > Accounts Payable > Payment Management,APP,Chash Withdrawal Plan Registration,ac_payment.AcPaymentCashWithdrawalPlanRegistrationStandardPage,QA-autotest-payment,passw0rd,y,現金出金予定登録 / Chash Withdrawal Plan Registration
+AC > Accounts Payable > Payment Management,APP,Transfer Withdrawal Registration,ac_payment.AcPaymentTransferWithdrawalRegistrationStandardPage,QA-autotest-payment,passw0rd,y,振込出金実績登録 / Transfer Withdrawal Registration
+AC > Accounts Payable > Payment Management,APP,Transfer Withdrawal Plan Registration,ac_payment.AcPaymentTransferWithdrawalPlanRegistrationStandardPage,QA-autotest-payment,passw0rd,y,振込出金予定登録 / Transfer Withdrawal Plan Registration
+AC > Accounts Payable > Form 1099/1096 Management ,,,ac_payment.AcAccountsPayableForm1099ManagementPage,QA-autotest-payment,passw0rd,y,1099/1096管理 / Form 1099/1096 Management
+AC > Accounts Payable > Check Management,,,ac_payment.AcPaymentChequeDetailInputPage,QA-autotest-payment,passw0rd,y,小切手管理 / Check Management

@@ -1,0 +1,10 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+HCM > Payroll > Payroll > Payroll Management,,,hr_payrollmgmt.SalarycalculationPayrollmanagementPortalPage,QA-autotest-apply,passw0rd,y,給与計算管理 / Payroll Management
+HCM > Payroll > Payroll > Payroll Management,SIDE_MENU,Calculation,hr_payrollmgmt.SalarycalculationPayrollmanagementLoadCalculationPage,QA-autotest-apply,passw0rd,y,給与計算管理-計算 / Payroll Management - Calculation
+HCM > Payroll > Payroll > Payroll Management,SIDE_MENU,Bank Transfer,hr_payrollmgmt.SalarycalculationPayrollmanagementloadTransferPage,QA-autotest-apply,passw0rd,y,給与計算管理-振込 / Payroll Management - Bank Transfer
+HCM > Payroll > Payroll > Payroll Management,SIDE_MENU,Closing,hr_payrollmgmt.SalarycalculationPayrollmanagementloadClosingPage,QA-autotest-apply,passw0rd,y,給与計算管理-締め / Payroll Management - Closing

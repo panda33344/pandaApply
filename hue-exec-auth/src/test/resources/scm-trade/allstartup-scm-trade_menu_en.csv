@@ -1,0 +1,18 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+#Construction > Trade > Export Management > Export Judgement Management,,,scm_trade.ScmExportJudgmentPortalPage,scmauto_pay002,passw0rd,y,輸出審査管理 / Export Judgement Management
+#Construction > Trade > Export Management > Export Judgement Management,SIDE_MENU, Export Review > Individual Review of Requests,scm_trade.ScmExportJudgmentIndividualReviewOfRequestsPage,scmauto_pay002,passw0rd,y,輸出審査管理 / Export Judgement Management-個々に審査する必要がある依頼/Individual Review of Requests
+#Construction > Trade > Export Management > ExportShipment,,,scm_trade.ScmExportShipmentPortalPage,scmauto_pay002,passw0rd,y,輸出出荷管理 / Export Shipment
+#Construction > Trade > Export Management > ExportShipment,SIDE_MENU,Export Shipping Information > Transport Arrangement,scm_trade.ScmExportShipmentTransportArrangementPage,scmauto_pay002,passw0rd,y,輸出出荷管理 輸送機関手配 / Export Shipment - Transport Arrangement
+#Construction > Trade > Export Management > ExportShipment,SIDE_MENU,Export Shipping Information > Shipment Schedule Registration,scm_trade.ScmExportShipmentShipmentScheduleRegistrationPage,scmauto_pay002,passw0rd,y,輸出出荷管理 出荷予定登録 / Export Shipment - Shipment Schedule Registration
+#Construction > Trade > Export Management > ExportShipment,SIDE_MENU,Export Shipping Information > Packing Information Registration,scm_trade.ScmExportShipmentPackingInformationRegistrationPage,scmauto_pay002,passw0rd,y,輸出出荷管理 梱包情報登録 / Export Shipment - Packing Information Registration
+#Construction > Trade > Export Management > ExportShipment,SIDE_MENU,Export Shipping Information > B/L · AWB Registration,scm_trade.ScmExportShipmentBlAwbRegistrationPage,scmauto_pay002,passw0rd,y,輸出出荷管理 B/L・AWB登録 / Export Shipment - B/L · AWB Registration
+#Construction > Trade > Export Management > Export Shipment Request,,,scm_trade.ScmTradeExportShipmentRequestPortalPage,scmauto_pay002,passw0rd,y,輸出出荷依頼 / Export Shipment Request
+#Construction > Trade > Import Management > Import Goods Receipt,,,scm_trade.ScmTradeImportGoodsReceiptPortalPage,scmauto_pay002,passw0rd,y,輸入入荷管理 / Import Goods Receipt
+#Construction > Trade > Import Management > Import Goods Receipt,SIDE_MENU,Import Arrival Information > Delivery Schedule Registration,scm_trade.ScmTradeImportGoodsReceiptDeliveryScheduleRegistrationPage,scmauto_pay002,passw0rd,y,入荷予定登録 / Delivery Schedule Registration
+#Construction > Trade > Import Management > Import Goods Receipt,SIDE_MENU,Import Arrival Information > Shipping Notification Registration,scm_trade.ScmTradeImportGoodsReceiptShippingNotificationRegistrationPage,scmauto_pay002,passw0rd,y,船積通知登録 / Shipping Notification Registration
+#Construction > Trade > Import Management > Import Goods Receipt,SIDE_MENU,Import Arrival Information > B / L · AWB Registration,scm_trade.ScmTradeImportGoodsReceiptBLAWBRegistrationPage,scmauto_pay002,passw0rd,y,B/L・AWB登録 / BL・AWB Registration

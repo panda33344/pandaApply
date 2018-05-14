@@ -1,0 +1,15 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+ac_payrequest.AcPayRequestPortalPage,QA-autotest-apply,passw0rd,y,支払依頼管理 / Payment Request Management
+ac_payrequest.AcPayrequestNewApplyForFieldInputPage,QA-autotest-apply,passw0rd,y,請求書支払申請（現場用）/ Payment Request (for field)
+ac_payrequest.AcPayrequestCancelApplyForFieldInputPage,QA-autotest-apply,passw0rd,y,請求書支払取消申請（現場用）/ Payment Request Cancellation (for field)
+ac_payrequest.AcPayrequestCorrectApplyForFieldInputPage,QA-autotest-apply,passw0rd,y,請求書支払訂正申請（現場用）/ Payment Revision Request (for field)
+ac_payrequest.AcPayrequestNewApplyForFieldAccountingInputPage,QA-autotest-apply,passw0rd,y,請求書支払申請（現場経理用）/ Payment Request (for field accounting)
+ac_payrequest.AcPayrequestCancelApplyForFieldAccountingInputPage,QA-autotest-apply,passw0rd,y,請求書支払取消申請（現場経理用）/ Payment Request Cancellation (for field accounting)
+ac_payrequest.AcPayrequestCorrectApplyForFieldAccountingInputPage,QA-autotest-apply,passw0rd,y,請求書支払訂正申請（現場経理用）/ Payment Revision Request (for field accounting)
+ac_payrequest.AcPayrequestNewApplyUSStandardForFieldInputPage,QA-autotest-apply,passw0rd,y,請求書支払申請（US現場用）/ Payment Request (for field of US)
+ac_payrequest.AcPayrequestCancelApplyUSStandardForFieldInputPage,QA-autotest-apply,passw0rd,y,請求書支払取消申請（US現場用）/ Payment Request Cancellation (for field of US)
+ac_payrequest.AcPayrequestCorrectApplyUSStandardForFieldInputPage,QA-autotest-apply,passw0rd,y,請求書支払訂正申請（US現場用）/ Payment Revision Request (for field of US)
+ac_payrequest.AcPayrequestNewApplyUSStandardForFieldAccountingInputPage,QA-autotest-apply,passw0rd,y,請求書支払申請（US現場経理用）/ Payment Request (for field accounting of US)
+ac_payrequest.AcPayrequestCancelApplyUSStandardForFieldAccountingInputPage,QA-autotest-apply,passw0rd,y,請求書支払取消申請（US現場経理用）/Payment Request Cancellation (for field accounting of US)
+ac_payrequest.AcPayrequestCorrectApplyUSStandardForFieldAccountingInputPage,QA-autotest-apply,passw0rd,y,請求書支払訂正申請（US現場経理用）/Payment Revision Request (for field accounting of US)

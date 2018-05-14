@@ -1,0 +1,10 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+AC > FM & Strategy > 管理会計,,,ac_mngac.AcManagementAccountingPage,SonobeApp001,passw0rd,y,管理会計 / AcManagementAccounting
+AC > FM & Strategy > 管理会計,SIDE_MENU,月次情報 > 月次推移,ac_mngac.AcManagementAccountingMonthlyTransitionTransitionPage,SonobeApp001,passw0rd,y,月次推移 / Monthly Transition
+AC > FM & Strategy > 管理会計,SIDE_MENU,年次情報 > 年次推移,ac_mngac.AcManagementAccountingAnnualTransitionTransitionPage,SonobeApp001,passw0rd,y,年次推移 / Annual Transition
+AC > FM & Strategy > 管理会計,SIDE_MENU,月次情報 > 損益目標管理,ac_mngac.AcManagementAccountingPLTargetManagementTransitionPage,SonobeApp001,passw0rd,y,損益目標管理 / PL TargetManagement

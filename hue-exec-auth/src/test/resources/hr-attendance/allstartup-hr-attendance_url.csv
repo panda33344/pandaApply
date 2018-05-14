@@ -1,0 +1,11 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+hr_attclockinout.TimeStampPage,ATT2329,all12345,y,打刻
+hr_attendance.SelfAttendancePortalPage,ATT2329,all12345,y,勤怠管理
+hr_attendance.DailyAttendanceInputPage,yama006,all12345,y,日次勤怠
+hr_attendance.MonthlyAttendanceInputPage,yama006,all12345,y,月次勤怠
+hr_attendance.VacationReportAnnualPtoInputPage,ATT2329,all12345,y,年次有給休暇申請
+hr_attendance.OvertimeWorkPlanInputPage,ATT2329,all12345,y,残業申請
+hr_attendance.HolidayWorkPlanInputPage,ATT2329,all12345,y,休日出勤申請
+hr_attendance.ChangeWorkPlanInputPage,ATT2329,all12345,y,勤務変更申請
+hr_attendance.AbsenceApplicationInputPage,ATT2329,all12345,y,欠勤申請

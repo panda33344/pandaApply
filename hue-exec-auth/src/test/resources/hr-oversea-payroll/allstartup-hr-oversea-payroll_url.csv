@@ -1,0 +1,9 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+hr_oversea_payroll.HrEmployeeApplyPaymentMethodsInputPage,QA-autotest-apply,passw0rd,y,支払方法／PaymentMethod
+hr_oversea_payroll.HrEmployeeApplyFormW2InputPage,QA-autotest-apply,passw0rd,y,Form W-2
+hr_oversea_payroll.HrEmployeeApplyFormW3InputPage,QA-autotest-apply,passw0rd,y,Form W-3
+hr_oversea_payroll.HrEmployeeApplyFormW4InputPage,QA-autotest-apply,passw0rd,y,Form W-4
+hr_oversea_payroll.HrEmployeeApplyForm941InputPage,QA-autotest-apply,passw0rd,y,Form941
+hr_oversea_payroll.HrPayrollGarnishmentManagementPortalPage,hue-root,hue-r00t,y,差押管理 / Garnishment Management
+hr_oversea_payroll.HrPayrollGarnishmentManagementDetailAddPage,hue-root,hue-r00t,y,新差押命令の作成 / New Garnishment Order Creation

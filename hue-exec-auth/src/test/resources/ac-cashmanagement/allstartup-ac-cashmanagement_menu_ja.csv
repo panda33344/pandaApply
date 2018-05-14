@@ -1,0 +1,10 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+AC > Treasury > 流動性予測,,,ac_cashmanagement.AcCashmanagementePage,QA-autotest-apply,passw0rd,y,流動性予測 / Liquidity Forecast
+AC > Treasury > 流動性予測,ALL_APP,資金調達依頼,ac_cashmanagement.AcTreasuryCashManagementProcurementPage,QA-autotest-apply,passw0rd,y,資金調達依頼 / Procurement Application
+AC > Treasury > 流動性予測,ALL_APP,資金運用依頼,ac_cashmanagement.AcTreasuryCashManagementInvestmentPage,QA-autotest-apply,passw0rd,y,資金運用依頼 / Investment Application
+AC > Treasury > 預金残高管理,,,ac_cashmanagement.AcCashManagementFundDisposePortalPage,QA-autotest-apply,passw0rd,y,預金残高管理 / Account Balance Control

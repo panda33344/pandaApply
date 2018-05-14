@@ -1,0 +1,4 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+ac_apar.AcClosingPaymentManagementPortalPage,QA-autotest-payplan,passw0rd,y,締め取引管理 / Closing Deal Management
+#ac_apar.SalesPortalPage,QA-autotest-apply,passw0rd,y,売上管理 / Sales Allocation Management

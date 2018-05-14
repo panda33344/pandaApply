@@ -1,0 +1,10 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+Employee Service > 組織マップ,,,hr_organization.OrganizationMapPage,QA-autotest-apply,passw0rd,y,組織マップ
+HCM > 人事管理 > 組織 > 組織図メンテナンス,,,hr_organization.HrOrganizationMaintenancePortalPage,QA-autotest-apply,passw0rd,y,組織メンテナンス
+HCM > 人事管理 > 組織 > 組織図メンテナンス,SIDE_MENU,組織改編案,hr_organization.HrOrganizationMaintenancePortalReformProposalPage,QA-autotest-apply,passw0rd,y,組織メンテナンス-組織改編案
+HCM > 人事管理 > 組織 > 組織図メンテナンス,SIDE_MENU,組織改編履歴,hr_organization.HrOrganizationMaintenancePortalReformHistoryPage,QA-autotest-apply,passw0rd,y,組織メンテナンス-組織改編履歴

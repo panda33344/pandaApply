@@ -1,0 +1,20 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+#AC > Accounts Receivable > Billing Request Management,,,ac_ar.AcArBillingRequestManagementPortalPage,QA-autotest-apply,passw0rd,y,請求書発行依頼 / Billing Request Management
+#AC > Accounts Receivable > Billing Request Management,APP,Billing Request,ac_ar.AcArBillingRequestManagementInputInvoicePage,QA-autotest-apply,passw0rd,y,請求書発行依頼 / Billing Request Management
+#AC > Accounts Receivable > Reconciliation Management,,,ac_ar.AcArCollectionManagementPortalPage,QA-autotest-apply,passw0rd,y,入金消込管理 / Reconciliation Management
+#AC > Accounts Receivable > Reconciliation Management,APP,Deposit Result Registration,ac_ar.AcDepositResultInputReconciliationPage,QA-autotest-apply,passw0rd,y,現金入金実績登録 / Deposit Result Registration
+#AC > Accounts Receivable > Need-based Billing Management,,,ac_ar.AcArNeedBasedBillingManagementPortalPage,QA-autotest-apply,passw0rd,y,随時請求管理 / Need-based Billing Management
+#AC > Accounts Receivable > Advance Management,,,ac_ar.AcArAdvanceManagementPortalPage,QA-autotest-apply,passw0rd,y,立替管理 / Advance Management
+#AC > Accounts Receivable > Invoice Issuance Management,,,ac_ar.AcArInvoiceIssuanceManagementPortalPage,QA-autotest-apply,passw0rd,y,請求書発行管理 / Invoice Issuance Management
+#AC > Accounts Receivable > CollectPlanPortalService,,,ac_ar.CollectPlanPortalServicePage,QA-autotest-apply,passw0rd,y,CollectPlanPortalService / CollectPlanPortalService
+#AC > Accounts Receivable > Reconciliation Management,,,ac_ar.AcArCollectionManagementPortalPortalViewPage,QA-autotest-apply,passw0rd,y,Reconciliation Management / Reconciliation Management
+#AC > Accounts Receivable > CollectPlanPortalService,SIDE_MENU,Account Receivable Report,ac_ar.CollectPlanArListReportServiceStandardPage,QA-autotest-apply,passw0rd,y,回収予定入力 / Collect plan input
+#AC > Accounts Receivable > CollectPlanPortalService,APP,Collect Plan Input,ac_ar.CollectPlanNormalInputServiceStandardInputPage,QA-autotest-apply,passw0rd,y,回収予定入力 / Collect Plan Input
+#AC > Accounts Receivable > Billing Request Management,APP,Billing Request(for Sales Dept.),ac_ar.AcArBillingRequestNewApplySalesDeptInputInputPage,QA-autotest-apply,passw0rd,y,請求書発行依頼（営業用） / Billing Request (for Sales Dept.)
+#AC > Accounts Receivable > Need-based Billing Management,,,ac_ar.AcArNeedBasedBillingManagementPortalPage,QA-autotest-apply,passw0rd,y,随時請求管理 / Need-based Billing Management
+#AC > Accounts Receivable > Billing Request Management,APP,Billing Request(for Sales Dept.),ac_ar.AcArBillingRequestNewApplySalesDeptInputPage,QA-autotest-apply,passw0rd,y,請求書発行依頼（営業用） / Billing Request (for Sales Dept.)

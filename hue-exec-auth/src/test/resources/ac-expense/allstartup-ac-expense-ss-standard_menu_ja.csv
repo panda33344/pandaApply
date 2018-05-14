@@ -1,0 +1,28 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > コーポレートカード精算 > 社内ルール,ac_expense.ServiceSettingsAcExpenseCorporateCardStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,サービス設定-コーポレートカード精算 / Service Setting - CorporateCard Application
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > 交通費精算 > 社内ルール,ac_expense.ServiceSettingsAcExpenseShortTransStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,サービス設定-交通費精算 / Service Setting -? Transportation Expense Application
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > 交通費精算 > 入力を便利にする,ac_expense.ServiceSettingsAcExpenseShortTransStandardEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-交通費精算-入力を便利にする / Service Setting - Short Trans Standard - Easy input
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > 国内出張精算 > 社内ルール,ac_expense.ServiceSettingsAcExpenseDomesticBizTripStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,サービス設定-国内出張精算 / Service Setting - Domestic Business Trip Application
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > 国内出張精算 > 入力を便利にする,ac_expense.ServiceSettingsAcExpenseDomesticBizTripStandardEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-国内出張精算-入力を便利にする / Service Setting - Domestic Business Trip Application - Easy input
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > 海外出張精算 > 社内ルール,ac_expense.ServiceSettingsAcExpenseOverseasBizTripStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,サービス設定-海外出張精算 / Service Setting - Overseas Business Trip Application
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > 海外出張精算 > 入力を便利にする,ac_expense.ServiceSettingsAcExpenseOverseasBizTripStandardEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-海外出張精算-入力を便利にする / Service Setting - Overseas Business Trip Application - Easy input
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > 長期海外出張精算 > 社内ルール,ac_expense.ServiceSettingsAcExpenseLongTermOverseasBusinessTripCompanyRulesPage,QA-autotest-apply,passw0rd,y,サービス設定-長期海外出張精算 / Service Setting - Long Term Overseas Business Trip Application
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > 長期海外出張精算 > 入力を便利にする,ac_expense.ServiceSettingsAcExpenseLongTermOverseasBusinessTripEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-長期海外出張精算-入力を便利にする / Service Setting - Long Term Overseas Business Trip Application - Easy input
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > 接待交際費精算 > 社内ルール,ac_expense.ServiceSettingsAcExpenseEntertainmentStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,サービス設定-接待交際費精算 / Service Setting -? Entertainment Expenses
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > 接待交際費精算 > 入力を便利にする,ac_expense.ServiceSettingsAcExpenseEntertainmentStandardEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-接待交際費精算-入力を便利にする / Service Setting - Entertainment Expenses - Easy input
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > 一般経費精算 > 社内ルール,ac_expense.ServiceSettingsAcExpenseGeneralStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,サービス設定-一般経費精算 / Service Setting -? General Expense Application
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > 一般経費精算 > 入力を便利にする,ac_expense.ServiceSettingsAcExpenseGeneralStandardEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-一般経費精算-入力を便利にする / Service Setting - General Expense Application - Easy input
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > タクシー精算 > 社内ルール,ac_expense.ServiceSettingsAcExpenseGeneralTaxiStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,サービス設定-タクシー精算 / Service Setting -? Taxi Expense Application
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > タクシー精算> 入力を便利にする,ac_expense.ServiceSettingsAcExpenseGeneralTaxiStandardEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-タクシー精算-入力を便利にする / Service Setting - Taxi Expense Application - Easy input
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > 経費精算レポート > 社内ルール,ac_expense.ServiceSettingsAcExpenseReportStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,サービス設定-経費精算レポート / Service Setting - Expense Report
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > 経費精算レポート > 入力を便利にする,ac_expense.ServiceSettingsAcExpenseReportStandardEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-経費精算レポート-入力を便利にする / Service Setting - Report - Easy input
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > 自動車精算 > 社内ルール,ac_expense.ServiceSettingsAcExpenseCarStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,サービス設定-自動車経費申請-社内ルール / Service Setting - Car Expense Application - Company rules
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > 自動車精算 > 入力を便利にする,ac_expense.ServiceSettingsAcExpenseCarStandardEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-自動車精算-入力を便利にする / Service Setting - Car - Easy input
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > 備品購入精算 > 社内ルール,ac_expense.ServiceSettingsAcExpenseEquipmentPurchaseAdvanceRequestStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,社内ルール-備品購入精算 / Company rules - Equipment Purchase
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > 備品購入精算 > 入力を便利にする,ac_expense.ServiceSettingsAcExpenseEquipmentPurchaseAdvanceRequestStandardEasyInputPage,QA-autotest-apply,passw0rd,y,サービス設定-備品購入精算-入力を便利にする / Service Setting-Equipment Purchase - Easy input
+Tools > サービス設定,SERVICE_SETTINGS,AC > Expense > 請求書支払申請（現場用） > 社内ルール,ac_expense.ServiceSettingsAcExpensePayrequestNewApplyForFieldStandardCompanyRulesPage,QA-autotest-apply,passw0rd,y,サービス設定-請求書支払申請(現場用） / Service Setting-Invoice Payment Request(for field) - Easy input

@@ -1,0 +1,11 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+Employee Service > Expense Management,ALL_APP,General Expense,ac_expense.AcExpenseGeneralStandardInputPage,Expense-Autotest-app,autopassw0rd,y,一般経費精算 / General Expense Application
+Employee Service > Expense Management,ALL_APP,Taxi,ac_expense.AcExpenseGeneralTaxiInputPage,Expense-Autotest-app,autopassw0rd,y,タクシー精算 / Taxi Expense Application
+Employee Service > Expense Management,ALL_APP,Expense Report,ac_expense.AcExpenseReportStandardInputPage,Expense-Autotest-app,autopassw0rd,y,経費精算レポート / Expense Report
+Employee Service > Expense Management,ALL_APP,Car,ac_expense.AcExpenseApplicationCarInputPage,Expense-Autotest-app,autopassw0rd,y,自動車精算 / Car
+Employee Service > Expense Management,ALL_APP,Equipment Purchase,ac_expense.AcExpenseEquipmentPurchaseStandardInputPage,Expense-Autotest-app,autopassw0rd,y,備品購入精算 / Equipment Purchase

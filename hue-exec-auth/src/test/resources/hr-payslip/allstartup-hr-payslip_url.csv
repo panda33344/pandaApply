@@ -1,0 +1,5 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,-,-,-,-
+hr_payslip.PayslipInquiryPage,ban0001,passw0rd,y,給与明細照会
+hr_payslip.BonusPayslipPage,ban0001,passw0rd,y,賞与明細照会

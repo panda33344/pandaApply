@@ -1,0 +1,12 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+AC > Expense > Payment Plan Management,,,ac_payplan.AcPayplanPortalPaymentportalIndexPage,QA-autotest-payplan,passw0rd,y,支払予定管理 / Payment Plan Management
+AC > Expense > Expense Master Maintenance > Payment Due Section User Mapping Maintenance,,,ac_payplan.PaymentDSectionUserMappingMaintenancePage,QA-autotest-apply,passw0rd,y,支払責任部門・ユーザー関係マスタメンテナンス (1)
+AC > Accounts Payable > Accounts Payable Master Maintenance > Payment Due Section User Mapping Maintenance,,,ac_payplan.PaymentDSectionUserMappingMaintenancePage,QA-autotest-apply,passw0rd,y,支払責任部門・ユーザー関係マスタメンテナンス (2)
+AC > Accounts Payable > Accounts Payable Master Maintenance > Payment Schedule Setting,,,ac_payplan.AcAccountsPayablePaymentScheduleSettingPage,QA-autotest-apply,passw0rd,y,支払スケジュール設定 / Payment Schedule Setting
+AC > Accounts Payable > Accounts Payable Master Maintenance > Payment Schedule Setting,APP,Register new schedule,ac_payplan.AcPayplanScheduleInputPaymentSchedulePage,QA-autotest-apply,passw0rd,y,支払スケジュール設定 / Payment Schedule Setting
+AC > Accounts Payable > Accounts Payable Master Maintenance > Payment Schedule Setting,APP,Register new schedule rule,ac_payplan.AcPayplanScheduleRuleScheduleRulePage,QA-autotest-apply,passw0rd,y,支払スケジュール設定 / Payment Schedule Setting

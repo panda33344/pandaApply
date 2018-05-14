@@ -1,0 +1,4 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+ac_autoposting.AcAutopostingSettingPage,QA-autotest-apply,passw0rd,y,自動仕訳設定 / Auto Posting Setting
+ac_autoposting.ServiceSettingsAcAutoPostingPage,QA-autotest-apply,passw0rd,y,サービス設定-自動仕訳 / Service Setting - Auto Posting

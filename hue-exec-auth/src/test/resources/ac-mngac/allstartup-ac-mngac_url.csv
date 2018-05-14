@@ -1,0 +1,6 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+ac_mngac.AcManagementAccountingPage,SonobeApp001,passw0rd,y,管理会計 / AcManagementAccounting
+ac_mngac.AcManagementAccountingMonthlyTransitionTransitionPage,SonobeApp001,passw0rd,y,月次推移 / Monthly Transition
+ac_mngac.AcManagementAccountingAnnualTransitionTransitionPage,SonobeApp001,passw0rd,y,年次推移 / Annual Transition
+ac_mngac.AcManagementAccountingPLTargetManagementTransitionPage,SonobeApp001,passw0rd,y,損益目標管理 / PL TargetManagement

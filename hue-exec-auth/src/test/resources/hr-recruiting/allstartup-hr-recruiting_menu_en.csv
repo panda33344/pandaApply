@@ -1,0 +1,22 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+# -- List Page --
+HCM > Recruitment > Talent Database,,,hr_recruiting.RecruitingApplicantListPage,QA-autotest-apply,passw0rd,y,タレント データベース / Talent Database
+HCM > Recruitment > Candidate List,,,hr_recruiting.RecruitingCandidateListPage,QA-autotest-apply,passw0rd,y,応募者リスト / Candidate List
+HCM > Recruitment > Job List,,,hr_recruiting.RecruitingJobListPage,QA-autotest-apply,passw0rd,y,募集職種リスト / Job List
+HCM > Recruitment > Mail Template List,,,hr_recruiting.RecruitingMailTemplateListPage,QA-autotest-apply,passw0rd,y,メールテンプレートリスト / Mail Template List
+HCM > Recruitment > Recruiting Event Management,,,hr_recruiting.RecruitingEventPage,QA-autotest-apply,passw0rd,y,採用イベント管理 / Recruiting Event Management
+HCM > Recruitment > Offering Letter Management,,,hr_recruiting.RecruitingOfferingLetterPage,QA-autotest-apply,passw0rd,y,内定書類出力管理 / Offering Letter Management
+HCM > Recruitment > Onboarding Management,,,hr_recruiting.RecruitingOnboardingManagementPage,hue-root,hue-r00t,y,オンボーディング管理 / Onboarding Management
+HCM > Recruitment > Internship Management,,,hr_recruiting.RecruitingInternshipManagementPage,hue-root,hue-r00t,y,インターンシップ管理 / Internship Management
+HCM > Recruitment > Onboarding Process Settings > Onboarding Form Group Management,,,hr_recruiting.RecruitingOnboardingFormGroupManagementPage,hue-root,hue-r00t,y,提出書類グループ管理 / Onboarding Form Group Management
+Employee Service > Onboarding Procedure,,,hr_recruiting.RecruitingOnboardingProcedurePage,hue-root,hue-r00t,y,入社手続き / Onboarding Procedure
+# -- Input Page --
+HCM > Recruitment > Talent Database,APP,Add applicant,hr_recruiting.RecruitingApplicantInputPage,ATT2329,all12345,y,応募者情報登録 / Recruiting Applicant Input
+HCM > Recruitment > Job List,APP,Create New Job,hr_recruiting.RecruitingJobProfileInputPage,QA-autotest-apply,passw0rd,y,募集職種情報登録 / Job Profile Input
+HCM > Recruitment > Mail Template List,APP,Create New Mail Template,hr_recruiting.RecruitingMailTemplateSettingPage,QA-autotest-apply,passw0rd,y,メールテンプレート編集 / Mail Template Setting
+HCM > Recruitment > Recruiting Event Management,APP,Create new event,hr_recruiting.RecruitingEventProfileInputPage,QA-autotest-apply,passw0rd,y,採用イベント新規作成 / Create Recruiting Event

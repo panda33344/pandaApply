@@ -1,0 +1,11 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-0,-0,-0,-0,-0,-0
+#,APP: フローティングメニュー,-0,-0,-0,-0,-0,-0
+#,SIDE_MENU: サイドメニュー,-0,-0,-0,-0,-0,-0
+#,SERVICE_SETTINGS: サービス設定,-0,-0,-0,-0,-0,-0
+#Construction > Inventory > Goods Receipt Management,,,scm_inventory.ScmGoodsReceiptManagementPortalPage,scmauto_pay002,passw0rd,y,入庫管理 / Goods Issue Management
+#Construction > Inventory > Goods Receipt Management,APP,Goods Receipt Registration,scm_inventory.ScmGoodsReceiptRegistrationPage,scmauto_pay002,passw0rd,y,入庫登録 / Goods Issue Registragiton
+#Construction > Inventory > Goods Issue Management,,,scm_inventory.ScmGoodsIssueListPortalPage,scmauto_pay002,passw0rd,y,出庫管理 / Goods Issue Management
+#Construction > Inventory > Goods Issue Management,APP,Goods Issue Registration,scm_inventory.ScmGoodsIssueRegistrationPage,scmauto_pay002,passw0rd,y,出庫登録 /Goods Issue Registration
+#Construction > Inventory > Item Search,,,scm_inventory.ScmItemSearchPortalPage,scmauto_pay002,passw0rd,y,品目サーチ / ItemSearch

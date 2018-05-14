@@ -1,0 +1,11 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+ac_accounting.AcGlBSAccountBalanceByBranchPage,QA-autotest-apply,passw0rd,y,事業所別BS科目残高表 / BS Account Balance Sheet By Branch
+ac_accounting.AcGlPLAccountBalanceByCorpItemPage,QA-autotest-apply,passw0rd,y,PL科目残高表 - 科目一覧 / PL Account Balance Sheet - AC Title List
+ac_accounting.AcGlBSAccountBalanceByCorpPage,QA-autotest-apply,passw0rd,y,BS科目残高表 / BS Account Balance Sheet
+ac_accounting.AcGlPLAccountBalanceByBranchItemPage,QA-autotest-apply,passw0rd,y,事業所別PL科目残高表 - 科目一覧 / PL Account Balance Sheet By Branch - AC Title List
+ac_accounting.AcGlPLAccountBalanceByDepartmentItemPage,QA-autotest-apply,passw0rd,y,部門別PL科目残高表 - 科目一覧 / PL Account Balance Sheet By Department - AC Title List
+ac_accounting.AllocationResultDetailsPage,QA-autotest-apply,passw0rd,y,配賦結果明細表 / Allocation Result Details
+ac_accounting.AcAccountingClearingAccountingByBranchViewIdPage,QA-autotest-apply,passw0rd,y,事業所別消込科目残高表 / Clearing Item Account Balance By Office
+ac_accounting.AcAccountingClearingAccountingByCorpViewIdPage,QA-autotest-apply,passw0rd,y,消込科目残高表 / Clearing Item Account Balance
+ac_accounting.AcAccountingClearingAccountingByDepartmentViewIdPage,QA-autotest-apply,passw0rd,y,部門別消込科目残高表 / Clearing Item Account Balance By Cost Dep

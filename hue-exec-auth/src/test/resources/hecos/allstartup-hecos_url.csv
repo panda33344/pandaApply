@@ -1,0 +1,6 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+hecos.HecosEmployeePage,QA-autotest-apply,passw0rd,y,社員情報メンテナンス / HECOS Employee Maintenance
+hecos.HecosOrganizationStructurePage,QA-autotest-apply,passw0rd,y,組織情報メンテナンス / HECOS Organization Maintenance
+hecos.HecosPositionPage,QA-autotest-apply,passw0rd,y,役職情報メンテナンス / Hecos Position Maintenance
+hecos.HecosQualificationPage,QA-autotest-apply,passw0rd,y,職能資格情報メンテナンス / Hecos Qualification Maintenance

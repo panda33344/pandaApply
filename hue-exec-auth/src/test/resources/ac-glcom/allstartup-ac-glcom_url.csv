@@ -1,0 +1,19 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+ac_glcom.AcGlJournalEntryDashboardPage,QA-autotest-apply,passw0rd,y,仕訳計上管理 / Journal Entry Dashboard
+ac_glcom.AcGlTrialBalanceByCorpPage,QA-autotest-apply,passw0rd,y,合計残高試算表 / Trial Balance
+ac_glcom.AcGlTrialBalanceByBranchPage,QA-autotest-apply,passw0rd,y,事業所別合計残高試算表 / Trial Balance By Branch
+ac_glcom.AcGlTrialBalanceByDepartmentPage,QA-autotest-apply,passw0rd,y,部門別合計残高試算表 / Trial Balance By Department
+ac_glcom.AcGlTrialBalanceByCorpFcPage,QA-autotest-apply,passw0rd,y,外貨合計残高試算表 / Trial Balance in F.C.
+ac_glcom.AcGlTrialBalanceByBranchFcPage,QA-autotest-apply,passw0rd,y,事業所別外貨合計残高試算表 / Trial Balance By Branch in F.C.
+ac_glcom.AcGlTrialBalanceByDepartmentFcPage,QA-autotest-apply,passw0rd,y,部門別外貨合計残高試算表 / Trial Balance By Department in F.C.
+ac_glcom.AcGlLedgerViewPage,QA-autotest-apply,passw0rd,y,勘定明細照会 / Ledger View
+ac_glcom.AcGlGeneralLedgerByCorpPage,QA-autotest-apply,passw0rd,y,総勘定元帳 / General Ledger
+ac_glcom.AcGlGeneralLedgerByDepartmentPage,QA-autotest-apply,passw0rd,y,部門別総勘定元帳 / General Ledger By Department
+ac_glcom.AcGlGeneralLedgerByBranchPage,QA-autotest-apply,passw0rd,y,事業所別総勘定元帳 / General Ledger By Branch
+ac_glcom.AcGlDepositAccountBalanceByBranchPage,QA-autotest-apply,passw0rd,y,事業所別預金勘定残高表 / Deposit Account Balance By Branch
+ac_glcom.AcGlDepositAccountBalanceByCorpPage,QA-autotest-apply,passw0rd,y,預金勘定残高表 / Deposit Account Balance By Corp
+ac_glcom.AcGlJournalEntryInputPage,QA-autotest-apply,passw0rd,y,伝票入力 / Journal Entry
+ac_glcom.AcGlJournalRegularPage,QA-autotest-apply,passw0rd,y,定例仕訳予約 / Regular Journal Reservation
+ac_glcom.AcGlDepositAccountBalanceByCorpDailyPage,QA-autotest-apply,passw0rd,y,日次預金勘定残高表 / Daily Deposit Account Balance
+ac_glcom.AcGlDepositAccountBalanceByBranchDailyPage,QA-autotest-apply,passw0rd,y,日次事業所別預金勘定残高表 / Daily Deposit Account Balance By Branch

@@ -1,0 +1,6 @@
+menuTypeInGlobalNavi,pathInGlobalNavi,pageObjectClass,user,password,memo
+# グローバルナビのメニュータイプ,グローバルナビ内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,レポート上に表示される項目。テスト実行には影響しない。
+#ICON: グローバルナビ内の各アイコン,,,,,,
+#USER: ユーザーメニューの各アイテム,,,,,
+#----HR-----
+USER,プロファイル,hr_talentsearch.TalentProfileMypagePage,QA-autotest-apply,passw0rd,Talent Profile/タレントプロファイル Admin (from Global Navi)

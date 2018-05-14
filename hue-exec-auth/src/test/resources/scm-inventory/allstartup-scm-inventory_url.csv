@@ -1,0 +1,5 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#scm_inventory.ScmGoodsReceiptManagementPortalPage,scmauto_pay002,passw0rd,y,入庫管理 / Goods Issue Management
+#scm_inventory.ScmGoodsIssueListPortalPage,scmauto_pay002,passw0rd,y,出庫管理 / Goods Issue Management
+#scm_inventory.ScmItemSearchPortalPage,scmauto_pay002,passw0rd,y,品目サーチ / ItemSearch

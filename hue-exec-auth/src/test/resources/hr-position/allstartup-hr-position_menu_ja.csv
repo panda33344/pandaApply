@@ -1,0 +1,9 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+HCM > 人事管理 > Position Management > Position Management,,,hr_position.PositionApplyNormalPage,QA-autotest-apply,passw0rd,y,Position Management / Position Management
+HCM > 人事管理 > Position Management> Position Management (For Admin),,,hr_position.PositionApplyAdminPage,QA-autotest-apply,passw0rd,y,Position Management (For Admin)/ Position Management (For Admin)
+Employee Service > Position Org Chart,,,hr_position.PositionOrgChartPage,QA-autotest-apply,passw0rd,y,Position Org Chart

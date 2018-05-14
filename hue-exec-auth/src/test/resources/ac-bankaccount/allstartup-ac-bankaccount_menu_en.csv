@@ -1,0 +1,9 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+AC > Business Common > Bank Account Management,,,ac_bankaccount.AcBankAccountManagementPage,QA-autotest-apply,passw0rd,y,銀行口座管理 / Bank Account Management (1)
+AC > Accounts Payable > Payment Management,SIDE_MENU,Related menu > Bank Account Management,ac_bankaccount.AcBankAccountManagementPage,QA-autotest-payment,passw0rd,y,銀行口座管理 / Bank Account Management (2)
+Tools > Service Settings,SERVICE_SETTINGS,AC > Business Common > Bank Reconciliation,ac_bankaccount.ServiceSettingAcBankaccountBankReconciliationStandardPage,QA-autotest-apply,passw0rd,y,サービス設定-銀行口座調整表 / Bank Account Management

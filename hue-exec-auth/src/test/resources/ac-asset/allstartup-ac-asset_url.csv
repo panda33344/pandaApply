@@ -1,0 +1,8 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+ac_asset.AcAssetManagementPortalPage,QA-autotest-apply,passw0rd,y,資産管理 / Asset Management
+ac_asset.AcAssetManagementAcquisitionRegistrationAssetManagementPage,camt1901a,passw0rd,y,取得登録申請 / Acquisition Registration Application
+ac_asset.AcAssetManagementSaleRegistrationAssetManagementPage,camt1901a,passw0rd,y,除売却登録申請 / Application for Sale Registration
+ac_asset.AcAssetManagementMoveRegistrationStandardPage,QA-autotest-apply,passw0rd,y,移動登録申請 / Move Registration Application
+ac_asset.AcAssetClosingManagementAssetClosingPage,QA-autotest-apply,passw0rd,y,Asset 決算管理 / Asset Closing Management
+ac_asset.AcAssetLeaseAssetManagementPortalLeaseManagementPage,QA-autotest-apply,passw0rd,y,リース契約管理 / Lease Contract Management

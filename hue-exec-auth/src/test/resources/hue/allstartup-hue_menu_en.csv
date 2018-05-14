@@ -1,0 +1,32 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+#-----BT-----
+Tools > Service Settings,,,hue.ServiceSettingsPage,QA-autotest-apply,passw0rd,y,ServiceSettings
+Tools > Security Portal > IP Restriction Setting,,,hue.ServiceIpRestrictionSettingPage,QA-autotest-apply,passw0rd,y,社外アクセス制限設定 / Security Portal
+Tools > Security Portal > Inhouse IP Setting,,,hue.IpAddressSettingPage,QA-autotest-apply,passw0rd,y,社内IPアドレス設定 / Inhouse IP Setting
+Tools > Security Portal > Authority Maintenance,,,hue.ExecuteAuthoritySettingsPage,QA-autotest-apply,passw0rd,y,権限管理 - 一覧 / Authority Maintenance - Role List
+Tools > Security Portal > Session Management,,,hue.SessionListPage,QA-autotest-apply,passw0rd,y,セッション管理 / Session Management
+Tools > Security Portal> Authentication Settings,,,hue.AuthSettingsPage,QA-autotest-apply,passw0rd,y,認証設定 / Authentication Settings
+Tools > Security Portal > Device Certificate Management,,,hue.DeviceCertificateMgtPage,QA-autotest-apply,passw0rd,y,デバイス証明書管理 / Device Certificate Management
+Tools > Security Portal > Login Report,,,hue.AuthInfoPage,QA-autotest-apply,passw0rd,y,ログインレポート / Login Report
+Tools > Security Portal > Data Filter Setting,,,hue.DataSecuritySettingPage,QA-autotest-apply,passw0rd,y,データフィルター設定 / Data Filter Setting
+Tools > User Account Portal > Authority Export,,,hue.ExecAuthoritySettingExportPage,QA-autotest-apply,passw0rd,y,権限エクスポート / Authority Export
+Tools > Service Settings,SERVICE_SETTINGS,HUE General Settings > Timestamp Service > Timestamp Service Settings > Timestamp Service Settings,hue.ServiceSettingsTimestampServiceSettingsPage,QA-autotest-apply,passw0rd,y,タイムスタンプサービス設定 / Timestamp Service Settings
+Tools > Service Settings,SERVICE_SETTINGS,HUE General Settings > Numbering Setting > Numbering Rule Maintenance > Numbering Rule Maintenance,hue.ServiceSettingsAutoNumberingRuleOptionsPage,QA-autotest-apply,passw0rd,y,発番ルールメンテナンス / Numbering Rule Maintenance
+Tools > Service Settings,SERVICE_SETTINGS,HUE General Settings > Numbering Setting > Numbering Rule Mapping > Numbering Rule Mapping,hue.ServiceSettingsAutoNumberingRuleServiceOptionsPage,QA-autotest-apply,passw0rd,y,発番ルールマッピング / Numbering Rule Mapping
+Tools > Service Settings,SERVICE_SETTINGS,HUE General Settings > HUE Notification System > HUE Mail Sender > HUE Mail Sender,hue.ServiceSettingsHueMailSenderSettingPage,QA-autotest-apply,passw0rd,y,HUE メール送信者 / HUE Mail Sender
+Tools > Service Settings,SERVICE_SETTINGS,HUE General Settings > My Number Keeping System (MKS) > MKS Connection Settings > MKS Connection Settings,hue.ServiceSettingsMKSConnectionSettingsPage,QA-autotest-apply,passw0rd,y,MKS接続環境設定 / MKS Connection Settings
+#-----Collabo-----
+Tools > Enterprise Spreadsheet,,,collabo.ESSSpreadsheetMainPage,QA-autotest-apply,passw0rd,y,ESS
+Tools > HUE Drive,,,hue.HUEDrivePage,QA-autotest-apply,passw0rd,y,HUE Drive
+Tools > Projects,,,hue.ProjectsFeedsPage,QA-autotest-apply,passw0rd,y,TimeLine Project
+Tools > Enterprise Answers,,,hue.EnterpriseAnswersPage,QA-autotest-apply,passw0rd,y,Timeline Enterprise Answer
+Tools > HUE Mail,,,hue.HUEMailPage,QA-autotest-apply,passw0rd,y,HUE Mail
+Tools > HUE ToDo,,,hue.HUEToDoPage,QA-autotest-apply,passw0rd,y,HUE ToDo
+Tools > HUE Announcement,,,hue.HueAnnouncementPage,QA-autotest-apply,passw0rd,y,HUE Announcement
+Tools > Service Settings,SERVICE_SETTINGS,HUE General Settings > HUE Enterprise Collaboration > HUE Mail > HUE Mail,hue.ServiceSettingsHueMailAdminPage,QA-autotest-apply,passw0rd,y,HUE Mail Admin
+Tools > Service Settings,SERVICE_SETTINGS,HUE General Settings > HUE Enterprise Collaboration > HUE Contacts > HUE Contacts,hue.ServiceSettingsHueContactsAdminImportPage,QA-autotest-apply,passw0rd,y,Contacts

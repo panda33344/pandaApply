@@ -1,0 +1,7 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,-,-,-,-
+hr_benefit.HrBenefitsPortalPage,BenefitA001,benefit3813,y,給付金ポータル / Benefits Portal
+hr_benefit.HrBenefitsPortalYourPlansPage,BenefitA001,benefit3813,y,給付金ポータル - あなたのプラン / Benefits Portal - Your Plans
+hr_benefit.HrBenefitsPortalApplicationStatusPage,BenefitA001,benefit3813,y,給付金ポータル - 申請状況 / Benefits Portal - Application Status
+hr_benefit.HrBenefitsAdministrationPortalPage,BenefitA001,benefit3813,y,Benefits Administration

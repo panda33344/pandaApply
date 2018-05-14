@@ -1,0 +1,17 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+Employee Service > Personal Information Application...,,,hr_personalinfo.PersonalInfomationPortalPage,QA-autotest-apply,passw0rd,y,個人情報申請管理
+Employee Service > Personal Information Application...,ALL_APP,Personal Application,hr_personalinfo.HrEmployeeApplyIndividualApplicationInputPage,QA-autotest-apply,passw0rd,y,本人情報申請
+Employee Service > Personal Information Application...,ALL_APP,Marriage Application,hr_personalinfo.HrEmployeeApplyMarriageApplicationInputPage,QA-autotest-apply,passw0rd,y,結婚申請
+Employee Service > Personal Information Application...,ALL_APP,Address Application,hr_personalinfo.HrEmployeeApplyAddressChangeInputPage,QA-autotest-apply,passw0rd,y,住所申請
+Employee Service > Personal Information Application...,ALL_APP,Family Information Addition Application,hr_personalinfo.HrEmployeeApplyFamilyAdditionInputPage,QA-autotest-apply,passw0rd,y,家族情報追加申請
+Employee Service > Personal Information Application...,ALL_APP,Family Information Change Application,hr_personalinfo.HrEmployeeApplyFamilyChangeInputPage,QA-autotest-apply,passw0rd,y,家族情報変更申請
+Employee Service > Personal Information Application...,ALL_APP,Birth Application,hr_personalinfo.HrEmployeeApplyBirthApplicationInputPage,QA-autotest-apply,passw0rd,y,出生申請
+Employee Service > Personal Information Application...,ALL_APP,Misfortune Application,hr_personalinfo.HrEmployeeApplyMisfortuneApplicationInputPage,QA-autotest-apply,passw0rd,y,家族死亡申請
+Employee Service > Personal Information Application...,ALL_APP,Apply for Divorce,hr_personalinfo.HrEmployeeApplyDivorceApplicationInputPage,QA-autotest-apply,passw0rd,y,離婚申請
+#,Employee Service > Personal Information Application Management,ALL_APP,Apply for Commute Route Change,hr_personalinfo.HrEmployeeApplyCommuteRouteInputPage,QA-autotest-apply,passw0rd,y,通勤経路申請
+HCM > HR Core > Personal Information Maintenance,,,hr_personalinfo.PersonalInformationManagementPage,hue-root,hue-r00t,y,個人情報メンテナンス / Personal Information Maintenance

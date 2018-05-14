@@ -1,0 +1,10 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+user_accounts.AuthorityRequestInputPage,QA-autotest-apply,passw0rd,y,ロール付与申請 / Role Request
+user_accounts.RemovingAuthorityRequestInputPage,QA-autotest-apply,passw0rd,y,ロール剥奪申請 / Removing Role Request
+user_accounts.BusinessUnitMaintenancePage,QA-autotest-apply,passw0rd,y,人事組織マスタ管理 / Business Unit Maintenance
+user_accounts.OfficeMaintenancePage,QA-autotest-apply,passw0rd,y,事業所マスタ管理 / Office Maintenance
+user_accounts.CustomCodeMaintenancePage,QA-autotest-apply,passw0rd,y,汎用コードマスタ管理 / Custom Code Maintenance
+user_accounts.CorporationMaintenancePage,QA-autotest-apply,passw0rd,y,会社マスタ管理 / Corporation Maintenance
+user_accounts.TitleMaintenancePage,QA-autotest-apply,passw0rd,y,役職マスタ管理 / Title Maintenance
+user_accounts.LicenseStatusPage,QA-autotest-apply,passw0rd,y,保有ライセンス情報 / Available License Information

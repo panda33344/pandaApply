@@ -1,0 +1,8 @@
+pageObjectClass,user,password,openable,memo,subsystem
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。,サブシステム
+#-----BT-----
+hue.ProfileMainPage,QA-autotest-apply,passw0rd,y,設定 / Settings,subsystem-A
+hue.UsersettingSetupPage,QA-autotest-apply,passw0rd,y,FirstLogin(HUE set up),subsystem-A
+hue.MobileSettingsPage,QA-autotest-apply,passw0rd,y,Mobile Settings,subsystem-A
+hue.PasswordResetPage,QA-autotest-apply,passw0rd,y,Login,subsystem-A
+hue.AuthSettingsPage,QA-autotest-apply,passw0rd,y,AuthSettings,subsystem-C

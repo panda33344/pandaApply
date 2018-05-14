@@ -1,0 +1,7 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+ac_expense.AcCfmTemporaryPaymentManagementPage,QA-autotest-payplan,passw0rd,y,仮払残高管理 / Temporary Payment Balance Management
+ac_expense.AcExpensePerformanceReferenceAccountantPage,QA-autotest-apply,passw0rd,y,経費実績照会 / Expense Performance Reference
+ac_expense.AcExpensePortalPage,QA-autotest-apply,passw0rd,y,経費管理
+ac_expense.AcExpenseBankAccountStandardInputPage,QA-autotest-apply,passw0rd,y,経費振込先口座申請 / Expense Bank Account Application
+ac_expense.AcExpenseCommuteRouteStandardInputPage,QA-autotest-apply,passw0rd,y,定期区間申請 / Commute Route

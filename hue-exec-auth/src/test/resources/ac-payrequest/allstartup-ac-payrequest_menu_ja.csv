@@ -1,0 +1,24 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+AC > Accounts Payable > 支払依頼管理,,,ac_payrequest.AcPayRequestPortalPage,QA-autotest-apply-nf,passw0rd,y,支払依頼管理 / Payment Request Management
+AC > Accounts Payable > 支払依頼管理,APP,請求書支払申請（現場用）,ac_payrequest.AcPayrequestNewApplyForFieldInputPage,QA-autotest-apply-nf,passw0rd,y,請求書支払申請（現場用）/ Payment Request (for field)
+AC > Accounts Payable > 支払依頼管理,APP,請求書支払申請（現場経理用）,ac_payrequest.AcPayrequestNewApplyForFieldAccountingInputPage,QA-autotest-apply-nf,passw0rd,y,請求書支払申請（現場経理用）/ Payment Request (for field accounting)
+AC > Accounts Payable > 支払依頼管理,APP,請求書支払申請（US現場用）,ac_payrequest.AcPayrequestNewApplyUSStandardForFieldInputPage,QA-autotest-apply-nf,passw0rd,y,請求書支払申請（US現場用）/ Payment Request (for field of US)
+AC > Accounts Payable > 支払依頼管理,APP,請求書支払申請（US現場経理用）,ac_payrequest.AcPayrequestNewApplyUSStandardForFieldAccountingInputPage,QA-autotest-apply-nf,passw0rd,y,請求書支払申請（US現場経理用）/ Payment Request (for field accounting of US)
+Tools > サービス設定,SERVICE_SETTINGS,AC > Accounts Payable > 請求書支払申請（現場用） > 社内ルール,ac_payrequest.ServiceSettingsAcPayrequestNewApplyForFieldPage,QA-autotest-apply,passw0rd,y,サービス設定-請求書支払申請（現場用）/ Service Setting - Payment Request (for field)
+Tools > サービス設定,SERVICE_SETTINGS,AC > Accounts Payable > 請求書支払取消申請（現場用） > 社内ルール,ac_payrequest.ServiceSettingsAcPayrequestCancelApplyForFieldPage,QA-autotest-apply,passw0rd,y,サービス設定-請求書支払取消申請（現場用）/ Service Setting - Payment Request Cancellation (for field)
+Tools > サービス設定,SERVICE_SETTINGS,AC > Accounts Payable > 請求書支払訂正申請（現場用） > 社内ルール,ac_payrequest.ServiceSettingsAcPayrequestCorrectApplyForFieldPage,QA-autotest-apply,passw0rd,y,サービス設定-請求書支払訂正申請（現場用）/ Service Setting - Payment Revision Request (for field)
+Tools > サービス設定,SERVICE_SETTINGS,AC > Accounts Payable > 請求書支払申請（現場経理用） > 社内ルール,ac_payrequest.ServiceSettingsAcPayrequestNewApplyForFieldAccountingPage,QA-autotest-apply,passw0rd,y,サービス設定-請求書支払申請（現場経理用）/ Service Setting - Payment Request (for field accounting)
+Tools > サービス設定,SERVICE_SETTINGS,AC > Accounts Payable > 請求書支払取消申請（現場経理用） > 社内ルール,ac_payrequest.ServiceSettingsAcPayrequestCancelApplyForFieldAccountingPage,QA-autotest-apply,passw0rd,y,サービス設定-請求書支払取消申請（現場経理用）/ Service Setting - Payment Request Cancellation (for field accounting)
+Tools > サービス設定,SERVICE_SETTINGS,AC > Accounts Payable > 請求書支払訂正申請（現場経理用） > 社内ルール,ac_payrequest.ServiceSettingsAcPayrequestCorrectApplyForFieldAccountingPage,QA-autotest-apply,passw0rd,y,サービス設定-請求書支払訂正申請（現場経理用） / Service Setting - Payment Revision Request (for field accounting)
+Tools > サービス設定,SERVICE_SETTINGS,AC > Accounts Payable > 請求書支払申請（US現場用） > 社内ルール,ac_payrequest.ServiceSettingsAcPayrequestNewApplyUSStandardForFieldPage,QA-autotest-apply,passw0rd,y,サービス設定-請求書支払申請（US現場用）/ Service Setting - Payment Request (for field of US)
+Tools > サービス設定,SERVICE_SETTINGS,AC > Accounts Payable > 請求書支払取消申請（US現場用） > 社内ルール,ac_payrequest.ServiceSettingsAcPayrequestCancelApplyUSStandardForFieldPage,QA-autotest-apply,passw0rd,y,サービス設定-請求書支払取消申請（US現場用）/ Service Setting - Payment Request Cancellation (for field of US)
+Tools > サービス設定,SERVICE_SETTINGS,AC > Accounts Payable > 請求書支払訂正申請（US現場用） > 社内ルール,ac_payrequest.ServiceSettingsAcPayrequestCorrectApplyUSStandardForFieldPage,QA-autotest-apply,passw0rd,y,サービス設定-請求書支払訂正申請（US現場用）/ Service Setting - Payment Revision Request (for field of US)
+Tools > サービス設定,SERVICE_SETTINGS,AC > Accounts Payable > 請求書支払申請（US現場経理用） > 社内ルール,ac_payrequest.ServiceSettingsAcPayrequestNewApplyUSStandardForFieldAccountingPage,QA-autotest-apply,passw0rd,y,サービス設定-請求書支払申請（US現場経理用）/ Service Setting - Payment Request (for field accounting of US)
+Tools > サービス設定,SERVICE_SETTINGS,AC > Accounts Payable > 請求書支払取消申請（US現場経理用） > 社内ルール,ac_payrequest.ServiceSettingsAcPayrequestCancelApplyUSStandardForFieldAccountingPage,QA-autotest-apply,passw0rd,y,サービス設定-請求書支払取消申請（US現場経理用）/ Service Setting - Payment Request Cancellation (for field accounting of US)
+Tools > サービス設定,SERVICE_SETTINGS,AC > Accounts Payable > 請求書支払訂正申請（US現場経理用） > 社内ルール,ac_payrequest.ServiceSettingsAcPayrequestCorrectApplyUSStandardForFieldAccountingPage,QA-autotest-apply,passw0rd,y,サービス設定-請求書支払訂正申請（US現場経理用）/ Service Setting - Payment Revision Request (for field accounting of US)
+Tools > サービス設定,SERVICE_SETTINGS,AC > Accounts Payable > 請求書支払内容追記 > 社内ルール,ac_payrequest.ServiceSettingsAcPayrequestCompleteApplyPage,QA-autotest-apply,passw0rd,y,サービス設定-請求書支払内容追記 / Service Setting - Complete Payment Request

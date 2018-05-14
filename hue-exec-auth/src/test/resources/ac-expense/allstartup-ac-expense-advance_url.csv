@@ -1,0 +1,16 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+ac_expense.AcExpenseTravelAdvanceRequestStandardInputPage,QA-autotest-apply,passw0rd,y,国内出張事前申請 / Overseas Travel Advance Request
+ac_expense.AcExpenseCancellationDomesticTravelAdvanceRequestInputPage,QA-autotest-apply,passw0rd,y,国内出張事前取消申請　/ Business Trip Request Cancellation
+ac_expense.AcExpenseOverseasTravelAdvanceRequestStandardInputPage,QA-autotest-apply,passw0rd,y,海外出張事前申請 / Overseas Travel Advance Request
+ac_expense.AcExpenseOverseasTravelAdvanceRequestStandardCancelInputPage,QA-autotest-apply,passw0rd,y,海外出張事前取消申請 / Foreign Business Trip Request Cancellation
+ac_expense.AcExpenseAdvanceRequestEntertainmentInputPage,QA-autotest-apply,passw0rd,y,接待交際費事前申請 / Entertainment Expense Advance Request
+ac_expense.AcExpenseEntertainmentAdvanceRequestStandardCancelInputPage,QA-autotest-apply,passw0rd,y,接待交際費事前取消申請 / Entertainment Advance Request Cancellation
+ac_expense.AcExpenseGeneralAdvanceRequestStandardInputPage,QA-autotest-apply,passw0rd,y,一般経費事前申請 / General Expense Advance Request
+ac_expense.AcExpenseGeneralAdvanceRequestStandardCancelInputPage,QA-autotest-apply,passw0rd,y,一般経費事前取消申請 / General Request Cancellation
+ac_expense.AcExpenseCarAdvanceRequestStandardInputPage,QA-autotest-apply,passw0rd,y,自動車経費事前申請 / Car Expense Advance Request
+ac_expense.AcExpenseCarAdvanceRequestStandardCancelInputPage,QA-autotest-apply,passw0rd,y,自動車経費事前取消申請 / Car Request Cancellation
+ac_expense.AcExpenseTemporaryPaymentStandardInputPage,QA-autotest-apply,passw0rd,y,仮払申請 / Temporary Payment Request
+ac_expense.AcExpenseTemporaryPaymentStandardCancelInputPage,QA-autotest-apply,passw0rd,y,仮払取消申請 / Temporary Payment Cancellation
+ac_expense.AcExpenseEquipmentPurchaseAdvanceRequestStandardInputPage,QA-autotest-apply,passw0rd,y,備品購入事前申請 / Equipment Purchase Advance Request
+ac_expense.AcExpenseEquipmentPurchaseAdvanceRequestStandradCancelInputPage,QA-autotest-apply,passw0rd,y,備品購入事前取消申請 / Equipment Purchase Advance Request Cancellation

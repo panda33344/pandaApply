@@ -1,0 +1,4 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+scm_cost.ProjectBudgetManagementPage,w-0016,w-0016w-0016,y,プロジェクト予算管理 / Project Budget Management
+scm_cost.ScmActualCostManagementPortalPage,scmauto_pay002,passw0rd,y,費用実績管理 / Cost Performance Data Management

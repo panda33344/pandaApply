@@ -1,0 +1,8 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+AC > FM & Strategy > Journal Entry Dashboard,SIDE_MENU,Related Menu > Auto Posting Setting,ac_autoposting.AcAutopostingNewSettingPage,QA-autotest-apply,passw0rd,y,自動仕訳設定 / Auto Posting Setting
+Tools > Service Settings,SERVICE_SETTINGS,AC > Accounts Payable > Auto Posting > Auto Posting Basic Setting,ac_autoposting.ServiceSettingsAcAutoPostingPage,QA-autotest-apply,passw0rd,y,サービス設定-自動仕訳 / Service Setting - Auto Posting

@@ -1,0 +1,8 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+Employee Service > Payroll > Payslip,,,hr_payslip.PayslipInquiryPage,ban0001,passw0rd,y,給与明細照会
+Employee Service > Payroll > BonusPayslip,,,hr_payslip.BonusPayslipPage,ban0001,passw0rd,y,賞与明細照会

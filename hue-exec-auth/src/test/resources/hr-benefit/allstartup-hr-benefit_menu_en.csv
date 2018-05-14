@@ -1,0 +1,10 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+Employee Service > payroll > Benefits Portal,,,hr_benefit.HrBenefitsPortalPage,BenefitA001,benefit3813,y,給付金ポータル / Benefits Portal
+Employee Service > payroll > Benefits Portal,SIDE_MENU,Your Plans,hr_benefit.HrBenefitsPortalYourPlansPage,BenefitA001,benefit3813,y,給付金ポータル - あなたのプラン / Benefits Portal - Your Plans
+Employee Service > payroll > Benefits Portal,SIDE_MENU,Application Status,hr_benefit.HrBenefitsPortalApplicationStatusPage,BenefitA001,benefit3813,y,給付金ポータル - 申請状況 / Benefits Portal - Application Status
+HCM > Payroll > Benefits Administration,,,hr_benefit.HrBenefitsAdministrationPortalPage,BenefitA001,benefit3813,y,Benefits Administration

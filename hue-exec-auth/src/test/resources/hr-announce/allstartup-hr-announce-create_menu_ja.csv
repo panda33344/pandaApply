@@ -1,0 +1,20 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+HCM > 人事管理 > 発令ポータル > 発令管理,,,hr_announce.HrAnnounceManagerPage,QA-autotest-apply,passw0rd,y,発令管理 / Announce Manager
+HCM > 人事管理 > 発令ポータル > 発令管理,SIDE_MENU,アクティビティ,hr_announce.HrAnnounceActivityPage,QA-autotest-apply,passw0rd,y,発令アクティビティ / Activity
+HCM > 人事管理 > 発令ポータル > 発令管理,SIDE_MENU,発令を探す,hr_announce.HrAnnounceSearchPage,QA-autotest-apply,passw0rd,y,発令を探す（発令一覧検索） / Search for Announcement
+HCM > 人事管理 > 発令ポータル > 発令管理,ALL_APP,雇用発令を作成,hr_announce.HrAnnounceEmploymentInputPage,QA-autotest-apply,passw0rd,y,雇用発令 / Employment Announcement
+HCM > 人事管理 > 発令ポータル > 発令管理,ALL_APP,異動発令を作成,hr_announce.HrAnnounceTransferInputPage,QA-autotest-apply,passw0rd,y,異動発令 / Transfer Announcement
+HCM > 人事管理 > 発令ポータル > 発令管理,ALL_APP,昇格発令を作成,hr_announce.HrAnnouncePromotionInputPage,QA-autotest-apply,passw0rd,y,昇格発令 / Promotion Announcement
+HCM > 人事管理 > 発令ポータル > 発令管理,ALL_APP,出向発令を作成,hr_announce.HrAnnounceSecondmentInputPage,QA-autotest-apply,passw0rd,y,出向発令 / Secondment Announcement
+HCM > 人事管理 > 発令ポータル > 発令管理,ALL_APP,出向復帰発令を作成,hr_announce.HrAnnounceReturnFromSecondmentInputPage,QA-autotest-apply,passw0rd,y,出向復帰発令 / Return from Secondment Announcement
+HCM > 人事管理 > 発令ポータル > 発令管理,ALL_APP,休職発令を作成,hr_announce.HrAnnounceLeaveInputPage,QA-autotest-apply,passw0rd,y,休職発令 / Leave Announcement
+HCM > 人事管理 > 発令ポータル > 発令管理,ALL_APP,休職復帰発令を作成,hr_announce.HrAnnounceReturnFromLeaveInputPage,QA-autotest-apply,passw0rd,y,休職復帰発令 / Return from Leave Announcement
+HCM > 人事管理 > 発令ポータル > 発令管理,ALL_APP,退職発令を作成,hr_announce.HrAnnounceRetirementInputPage,QA-autotest-apply,passw0rd,y,退職発令 / Retirement Announcement
+HCM > 人事管理 > 発令ポータル > 発令管理,ALL_APP,再雇用発令を作成,hr_announce.HrAnnounceReEmploymentInputPage,QA-autotest-apply,passw0rd,y,再雇用発令 / Re-Employment Announcement
+HCM > 人事管理 > 発令ポータル > 発令管理,ALL_APP,登用発令を作成,hr_announce.HrAnnounceAssignmentInputPage,QA-autotest-apply,passw0rd,y,登用発令 / Assignment Announcement
+HCM > 人事管理 > 発令ポータル > 発令管理,ALL_APP,その他発令を作成,hr_announce.HrAnnounceOtherInputPage,QA-autotest-apply,passw0rd,y,その他発令 / Announcement of the Others

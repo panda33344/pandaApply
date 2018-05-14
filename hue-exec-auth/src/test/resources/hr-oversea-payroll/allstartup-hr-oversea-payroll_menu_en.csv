@@ -1,0 +1,10 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+Employee Service > Personal Information Application...,ALL_APP,W4 Form,hr_oversea_payroll.HrEmployeeApplyFormW4InputPage,QA-autotest-apply,passw0rd,y,W4 Form
+Employee Service > Personal Information Application...,ALL_APP,Payment Methods,hr_oversea_payroll.HrEmployeeApplyPaymentMethodsInputPage,QA-autotest-apply,passw0rd,y,支払申請
+HCM > Payroll > Garnishment Management,,,hr_oversea_payroll.HrPayrollGarnishmentManagementPortalPage,hue-root,hue-r00t,y,差押管理 / Garnishment Management
+HCM > Payroll > Garnishment Management,APP,Create a New Garnishment Order,hr_oversea_payroll.HrPayrollGarnishmentManagementDetailAddPage,hue-root,hue-r00t,y,新差押命令の作成 / New Garnishment Order Creation

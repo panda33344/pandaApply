@@ -1,0 +1,46 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,-,-,-,-
+#----
+#--------------MenuEmployeeRootPage系---------------------------------
+hue.MenuEmpoyeeRootPage,QA-autotest-apply,passw0rd,y,RootMenuEmployee
+hue.MenuEmployeeRootTalentSearchTmpPortalPage,QA-autotest-apply,passw0rd,y,タレントサーチポータル/Talent Search Portal
+hue.MenuEmployeeRootPayrollTmpPortalPage,QA-autotest-apply,passw0rd,y,給与/Payroll
+hue.MenuEmployeeRootHrSelfWorkflowPage,QA-autotest-apply,passw0rd,y,人事関連申請/HR Self Workflow
+hue.MenuEmployeeRootCwsPage,QA-autotest-apply,passw0rd,y,申請・情報公開/Self Workfow
+#--------------MenuHcmRootPage----------------------------------------
+hue.MenuHcmRootPage,QA-autotest-apply,passw0rd,y,RootMenuHcm
+hue.MenuHcmRootHrCorePage,QA-autotest-apply,passw0rd,y,人事管理/HR Core
+hue.MenuHcmRootAnnouncePortalPage,QA-autotest-apply,passw0rd,y,発令ポータル/Announce Portal
+hue.MenuHcmRootPayrollFolderPage,QA-autotest-apply,passw0rd,y,給与/Payroll
+#hue.MenuHcmRootRecruitmentPage,QA-autotest-apply,passw0rd,y,採用/Recruitment
+#--------------MenuAcRootPage-----------------------------------------
+hue.MenuAcRootPage,QA-autotest-apply,passw0rd,y,RootMenuAcMenu
+hue.MenuAcRootFinancialManagementPage,QA-autotest-apply,passw0rd,y,FM & Strategy
+hue.MenuAcRootAcClosingManagementPage,QA-autotest-apply,passw0rd,y,決算管理/Accounting Closing Management
+hue.MenuAcRootAcExpensePage,QA-autotest-apply,passw0rd,y,Expense
+hue.MenuAcRootAcExpenseSettingPage,QA-autotest-apply,passw0rd,y,経費マスタメンテナンス/Expense Master Maintenance
+hue.MenuAcRootAcAccountsPayablePage,QA-autotest-apply,passw0rd,y,Accounts Payable
+hue.MenuAcRootAcAccountsPayableSettingPage,QA-autotest-apply,passw0rd,y,債務マスタメンテナンス/Accounts Payable Master Maintenance
+hue.MenuAcRootAcBaseSettingPage,QA-autotest-apply,passw0rd,y,Base Setting
+hue.MenuAcRootAcCustomerManagementPage,QA-autotest-apply,passw0rd,y,取引先管理/Customer Management
+hue.MenuAcRootAcForeignCurrencyManagementPage,QA-autotest-apply,passw0rd,y,外貨情報管理/Foreign Currency Management
+hue.MenuAcRootAcEbmPage,QA-autotest-apply,passw0rd,y,電子帳簿保存管理 / Electronic Book Maintenance Management
+#--------------SCMRootPage---------------------------------------
+hue.MenuScmRootPage,QA-autotest-apply,passw0rd,y,ScmMenu
+#hue.MenuScmRootTradePage,QA-autotest-apply,passw0rd,y,輸出入管理/Trade
+hue.MenuScmRootInventoryPage,QA-autotest-apply,passw0rd,y,在庫管理/Inventory
+hue.MenuScmRootCostPage,QA-autotest-apply,passw0rd,y,原価/Cost
+#hue.MenuScmRootTradeExportManagementPage,QA-autotest-apply,passw0rd,y,輸出管理/Export Management
+#hue.MenuScmRootTradeExportManagementPage,QA-autotest-apply,passw0rd,y,輸入管理/Import Management
+hue.MenuScmRootProjectPage,QA-autotest-apply,passw0rd,y,プロジェクト/Project
+hue.MenuScmRootCostManagementPage,QA-autotest-apply,passw0rd,y,原価管理/Cost Management
+#--------------MenuToolsRootPage---------------------------------------
+hue.MenuHueToolRootPage,QA-autotest-apply,passw0rd,y,RootMenuTools
+hue.MenuHueToolRootHueInterfacePage,QA-autotest-apply,passw0rd,y,Interface
+hue.MenuHueToolRootHueInterfaceSettingPage,QA-autotest-apply,passw0rd,y,共通設定/Common Setting
+hue.MenuHueToolRootSecurityPortalPage,QA-autotest-apply,passw0rd,y,セキュリティポータル/Security Portal
+hue.MenuHueToolRootUserAccountPortalPage,QA-autotest-apply,passw0rd,y,ユーザーアカウントポータル/User Account Portal
+hue.MenuHueToolRootGeneralSettingsPage,QA-autotest-apply,passw0rd,y,一般設定/General Settings
+hue.MenuHueToolRootServerPrintPage,QA-autotest-apply,passw0rd,y,サーバー印刷/Server Print
+hue.MenuHueToolRootAuthorityRequestPortalPage,QA-autotest-apply,passw0rd,y,権限申請ポータル/Authority Request Portal

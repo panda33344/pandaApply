@@ -1,0 +1,18 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+# -- List Page --
+hr_recruiting.RecruitingApplicantListPage,QA-autotest-apply,passw0rd,y,応募者リスト（タレント データベース） / Applicant List - Talent Database
+hr_recruiting.RecruitingCandidateListPage,QA-autotest-apply,passw0rd,y,応募者リスト（候補リスト） / Candidate List - Candidate List
+hr_recruiting.RecruitingJobListPage,QA-autotest-apply,passw0rd,y,募集職種リスト / Job List
+hr_recruiting.RecruitingMailTemplateListPage,QA-autotest-apply,passw0rd,y,メールテンプレートリスト / Mail Template List
+hr_recruiting.RecruitingEventPage,QA-autotest-apply,passw0rd,y,採用イベント管理 / Recruiting Event Management
+hr_recruiting.RecruitingOfferingLetterPage,QA-autotest-apply,passw0rd,y,内定書類出力管理 / Offering Letter Management
+hr_recruiting.RecruitingOnboardingManagementPage,QA-autotest-apply,passw0rd,y,オンボーディング管理 / Onboarding Management
+hr_recruiting.RecruitingInternshipManagementPage,QA-autotest-apply,passw0rd,y,インターンシップ管理 / Internship Management
+hr_recruiting.RecruitingOnboardingProcedurePage,QA-autotest-apply,passw0rd,y,入社手続き / Onboarding Procedure
+hr_recruiting.RecruitingOnboardingFormGroupManagementPage,QA-autotest-apply,passw0rd,y,提出書類グループ管理 / Onboarding Form Group Management
+# -- Input Page --
+hr_recruiting.RecruitingApplicantInputPage,ATT2329,passw0rd,y,応募者情報登録 / Recruiting Applicant
+hr_recruiting.RecruitingJobProfileInputPage,QA-autotest-apply,passw0rd,y,募集職種情報登録 / Job Profile Input
+hr_recruiting.RecruitingMailTemplateSettingPage,QA-autotest-apply,passw0rd,y,メールテンプレート編集 / Mail Template Setting
+hr_recruiting.RecruitingEventProfileInputPage,QA-autotest-apply,passw0rd,y,採用イベント新規作成 / Create Recruiting Event

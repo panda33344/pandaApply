@@ -1,0 +1,35 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#-----BT-----
+hue.ProfileMainPage,QA-autotest-apply,passw0rd,y,設定 / Settings
+hue.UsersettingSetupPage,QA-autotest-apply,passw0rd,y,FirstLogin(HUE set up)
+hue.MobileSettingsPage,QA-autotest-apply,passw0rd,y,Mobile Settings
+hue.PasswordResetPage,QA-autotest-apply,passw0rd,y,Login
+hue.AuthSettingsPage,QA-autotest-apply,passw0rd,y,AuthSettings
+hue.ServiceSettingsPage,QA-autotest-apply,passw0rd,y,ServiceSettings
+hue.MenuPage,QA-autotest-apply,passw0rd,y,Menu
+hue.RevisionInformationPage,QA-autotest-apply,passw0rd,y,Revision Information
+hue.ExecuteAuthoritySettingsPage,QA-autotest-apply,passw0rd,y,権限管理 - 一覧 / Authority Maintenance - Role List
+hue.IpAddressSettingPage,QA-autotest-apply,passw0rd,y,社内IPアドレス設定 / Inhouse IP Setting
+hue.ServiceIpRestrictionSettingPage,QA-autotest-apply,passw0rd,y,社外アクセス制限設定 / IP Restricted Setting
+hue.SessionListPage,QA-autotest-apply,passw0rd,y,セッション管理 / Session Management
+hue.ExecAuthoritySettingExportPage,QA-autotest-apply,passw0rd,y,権限エクスポート / Authority Export
+hue.ServiceSettingsTimestampServiceSettingsPage,QA-autotest-apply,passw0rd,y,タイムスタンプサービス設定 / Timestamp Service Settings
+hue.DeviceCertificateMgtPage,QA-autotest-apply,passw0rd,y,デバイス証明書管理 / Device Certificate Management
+hue.ServiceSettingsAutoNumberingRuleOptionsPage,QA-autotest-apply,passw0rd,y,発番ルールメンテナンス / Numbering Rule Maintenance
+hue.ServiceSettingsAutoNumberingRuleServiceOptionsPage,QA-autotest-apply,passw0rd,y,発番ルールマッピング / Numbering Rule Mapping
+hue.AuthInfoPage,QA-autotest-apply,passw0rd,y,ログインレポート / Login Report
+hue.DataSecuritySettingPage,QA-autotest-apply,passw0rd,y,データフィルター設定 / Data Filter Setting
+hue.LicensePage,QA-autotest-apply,passw0rd,y,HUEについて / About HUE
+hue.ServiceSettingsHueMailSenderSettingPage,QA-autotest-apply,passw0rd,y,HUE メール送信者 / HUE Mail Sender
+hue.ServiceSettingsMKSConnectionSettingsPage,QA-autotest-apply,passw0rd,y,MKS接続環境設定 / MKS Connection Settings
+#-----Collabo-----
+collabo.ESSSpreadsheetMainPage,QA-autotest-apply,passw0rd,y,ESS
+hue.HUEDrivePage,QA-autotest-apply,passw0rd,y,HUE Drive
+hue.ProjectsFeedsPage,QA-autotest-apply,passw0rd,y,TimeLine Project
+hue.EnterpriseAnswersPage,QA-autotest-apply,passw0rd,y,Timeline Enterprise Answer
+hue.HUEMailPage,QA-autotest-apply,passw0rd,y,HUE Mail
+hue.HueAnnouncementPage,QA-autotest-apply,passw0rd,y,HUE Announcement
+hue.ServiceSettingsHueMailAdminPage,QA-autotest-apply,passw0rd,y,HUE Mail Admin
+hue.HUEToDoPage,QA-autotest-apply,passw0rd,y,HUE ToDo
+hue.ServiceSettingsHueContactsAdminImportPage,QA-autotest-apply,passw0rd,y,Contacts

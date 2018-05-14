@@ -1,0 +1,24 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+#AC > FM & Strategy > Accounting Closing Management > Ac Period Open Control,,,ac_basic_master.AcPeriodOpenControlPage,QA-autotest-apply,passw0rd,y,会計期間オープンコントロール / Ac Period Open Control
+AC > Base Setting > Customer Management > Supplier Maintenance,,,ac_basic_master.ApSupplierMaintenancePage,QA-autotest-apply,passw0rd,y,仕入先マスタメンテナンス / Supplier Master Maintenance
+AC > Expense > Expense Master Maintenance > Payment Due Section Master Maintenance,,,ac_basic_master.ApPaymentDSectionMstMaintenancePage,QA-autotest-apply,passw0rd,y,支払責任部門マスタメンテナンス (1)
+AC > Accounts Payable > Accounts Payable Master Maintenance > Payment Due Section Master Maintenance,,,ac_basic_master.ApPaymentDSectionMstMaintenancePage,QA-autotest-apply,passw0rd,y,支払責任部門マスタメンテナンス (2)
+AC > Expense > Expense Master Maintenance > Cost Type Master Maintenance,,,ac_basic_master.CostTypeMasterMaintenancePage,QA-autotest-apply,passw0rd,y,費用タイプマスタメンテナンス (1)
+AC > Accounts Payable > Accounts Payable Master Maintenance > Cost Type Master Maintenance,,,ac_basic_master.CostTypeMasterMaintenancePage,QA-autotest-apply,passw0rd,y,費用タイプマスタメンテナンス (2)
+#AC > Base Setting > Foreign Currency Management > Exchange Rate Calculation Method Setting,,,ac_basic_master.RateTypeMaintenancePage,QA-autotest-apply,passw0rd,y,為替レート計算方法設定 / Exchange Rate Calculation Method Setting
+#AC > Base Setting > Foreign Currency Management > Corp Usable Currency Maintenance,,,ac_basic_master.AcCorpUsableCurrencyMaintenancePage,QA-autotest-apply,passw0rd,y,会社利用通貨メンテナンス / Corp Usable Currency Maintenance
+#AC > Base Setting > Foreign Currency Management > Exchange Rate Maintenance,,,ac_basic_master.UserForeignExchangeRateMaintenancePage,QA-autotest-apply,passw0rd,y,為替レートメンテナンス / Exchange Rate Maintenance
+#AC > Base Setting > Foreign Currency Management > Exchange Rate Type Maintenance,,,ac_basic_master.UserForeignExchangeRateTypeMaintenancePage,QA-autotest-apply,passw0rd,y,為替レートタイプメンテナンス / Exchange Rate Type Maintenance
+#AC > Base Setting > Foreign Currency Management > Rate Acquistion Company Maintenance,,,ac_basic_master.FxAcquistionCompanyMaintenancePage,QA-autotest-apply,passw0rd,y,レート取得先情報メンテナンス / Rate Acquistion Company Maintenance
+AC > Base Setting > Department Management > Cost Sharing Department Master Maintenance,,,ac_basic_master.CostSharingSectionPage,QA-autotest-apply,passw0rd,y,負担部門マスタ / Cost Sharing Department Master Maintenance
+AC > Base Setting > Department Management > Office Master Maintenance,,,ac_basic_master.BusinessEstablishmentMasterPage,QA-autotest-apply,passw0rd,y,事業所マスタメンテナンス / Office Master Maintenance
+#AC > Base Setting > Bank Management > Bank Master Maintenance,,,ac_basic_master.BankMasterMaintenancePage,QA-autotest-apply,passw0rd,y,銀行マスタメンテナンス / Bank Master Maintenance
+#AC > Base Setting > Bank Management > Bank Branch Master Maintenance,,,ac_basic_master.BankBranchMasterMaintenancePage,QA-autotest-apply,passw0rd,y,銀行支店マスタメンテナンス / Bank Branch Master Maintenance
+AC > Base Setting > Segment Management > Goods Kind Segment Master,,,ac_basic_master.GoodsKindSegmentMaintenancePage,QA-autotest-apply,passw0rd,y,品種セグメントマスタ / Goods Kind Segment Master
+AC > Base Setting > Segment Management > Supplier Segment Maintenance,,,ac_basic_master.SupplierSegmentMaintenancePage,QA-autotest-apply,passw0rd,y,仕入先セグメントマスタメンテナンス / Supplier Segment Maintenance
+AC > Base Setting > Account Management > Book Department Master Maintenance,,,ac_basic_master.HSectionPage,QA-autotest-apply,passw0rd,y,起票部門マスタ / Book Department Master Maintenance

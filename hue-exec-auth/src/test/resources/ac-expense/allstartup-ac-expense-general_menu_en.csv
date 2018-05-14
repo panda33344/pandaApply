@@ -1,0 +1,19 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+AC > Expense > Temporary Payment Management,,,ac_expense.AcCfmTemporaryPaymentManagementPage,QA-autotest-payplan,passw0rd,y,仮払残高管理 / Temporary Payment Balance Management
+Employee Service > Expense Management,,,ac_expense.AcExpensePortalPage,QA-autotest-apply,passw0rd,y,経費管理 (1)
+AC > Expense > Expense Management,,,ac_expense.AcExpensePortalPage,QA-autotest-apply,passw0rd,y,経費管理 (2)
+Employee Service > Expense Management,SIDE_MENU,Evidence > Unsubmitted,ac_expense.AcExpensePortalUnsubmittedEvidencePage,QA-autotest-apply,passw0rd,y,経費管理 領収書 - 使用前 / Expense Management Evidence - Unsubmitted
+Employee Service > Expense Management,SIDE_MENU,Evidence > Submitted,ac_expense.AcExpensePortalSubmittedEvidencePage,QA-autotest-apply,passw0rd,y,経費管理 領収書 - 使用済 /Expense Management Evidence - Submitted
+Employee Service > Expense Management,SIDE_MENU,Expense Records > Unsubmitted,ac_expense.AcExpensePortalUnsubmittedRecordsPage,QA-autotest-apply,passw0rd,y,経費管理 明細 - 使用前 /Expense Management Records - Unsubmitted
+Employee Service > Expense Management,SIDE_MENU,Expense Records > Submitted,ac_expense.AcExpensePortalSubmittedRecordsPage,QA-autotest-apply,passw0rd,y,経費管理 明細 - 使用済み /Expense Management Records - Submitted
+Employee Service > Expense Management,SIDE_MENU,Expense Reports > Submitted,ac_expense.AcExpensePortalAwaitingPaymentListPage,QA-autotest-apply,passw0rd,y,経費管理 経費申請書 - 申請済 /Expense Management Reports- Submitted
+Employee Service > Expense Management,SIDE_MENU,Expense Reports > Unsubmitted,ac_expense.AcExpensePortalBeforeApplicationListPage,QA-autotest-apply,passw0rd,y,経費管理 経費申請書 - 提出前 /Expense Management Reports- UnSubmitted
+Employee Service > Expense Management,SIDE_MENU,Corporate Card > Statements,ac_expense.AcExpensePortalCorporateCardPage,QA-autotest-apply-ac,passw0rd,y,経費管理 コーポレートカード - 明細一覧 / Corporate Card - Statements
+Employee Service > Expense Management,SIDE_MENU,Corporate Card > Report,ac_expense.AcExpensePortalCorporateCardTrayPage,QA-autotest-apply-ac,passw0rd,y,経費管理 コーポレートカード - 利用報告書 / Corporate Card - Report
+Employee Service > Expense Management,SIDE_MENU,Shared with Me,ac_expense.AcExpensePortalSharedWithMePage,QA-autotest-apply,passw0rd,y,共有された申請書 / Shared With Me
+AC > Expense > Expense Performance Reference,,,ac_expense.AcExpensePerformanceReferenceAccountantPage,QA-autotest-apply,passw0rd,y,経費実績照会 / Expense Performance Reference

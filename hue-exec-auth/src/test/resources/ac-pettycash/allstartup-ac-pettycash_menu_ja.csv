@@ -1,0 +1,16 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+AC > Business Common > 小口現金管理,,,ac_pettycash.AcPettyCashDashboardPage,pettyauto-app,passw0rd,y,小口現金ダッシュボード / Petty Cash Dashboard
+AC > Business Common > 小口現金管理,SIDE_MENU,現金出納帳,ac_pettycash.AcPettyCashbookPage,pettyauto-app,passw0rd,y,現金出納帳 / Cashbook
+AC > Business Common > 小口現金管理,APP,出納記帳,ac_pettycash.AcPettyCashbookEntryPage,pettyauto-app,passw0rd,y,出納記帳 / Cashbook Entry
+AC > Business Common > 小口現金管理,APP,日次締め,ac_pettycash.AcPettyDailyClosingPage,pettyauto-app,passw0rd,y,日次締め / Petty Cash Closing
+AC > Business Common > 小口現金管理,APP,随時補給依頼,ac_pettycash.AcPettyReplenishmentEntryPage,pettyauto-app,passw0rd,y,補給依頼 / Charge Request
+AC > Business Common > 小口現金管理,APP,出納予定帳,ac_pettycash.AcPettyPlannedCashbookEntryPage,pettyauto-app,passw0rd,y,出納予定帳 / Planned Cashbook Entry
+AC > Business Common > 小口現金管理,APP,仮払返金記帳,ac_pettycash.AcPettyTemporaryPaymentRefundPage,pettyauto-app,passw0rd,y,仮払返金記帳 / Temporary Payment Refund
+Tools > サービス設定,SERVICE_SETTINGS,AC > Business Common > 日次締め,ac_pettycash.ServiceSettingsAcPettyDailyClosingStandardPage,pettyauto-app,passw0rd,y,サービス設定-日次締め / Service Setting-Daily Closing
+Tools > サービス設定,SERVICE_SETTINGS,AC > Business Common > 出納記帳,ac_pettycash.ServiceSettingsAcPettyCashbookEntryStandardPage,pettyauto-app,passw0rd,y,サービス設定-出納記帳 / Service Setting-Cashbook Entry
+Tools > サービス設定,SERVICE_SETTINGS,AC > Business Common > 出納予定帳,ac_pettycash.ServiceSettingsAcPettyPlannedCashbookEntryPage,pettyauto-app,passw0rd,y,サービス設定-出納予定帳 / Service Setting-Planned Cashbook Entry

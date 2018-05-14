@@ -1,0 +1,11 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#scm_procurement.ScmProcurementPurchaseRequestManagementMainPortalPage,hue-root,hue-r00t,y,購入依頼管理 / Purchase Request Management
+#scm_procurement.ScmProcurementCustomOrderPurchaseIndustrialPartsPage,hue-root,hue-r00t,y,特注品購買 / Purchase Request Application
+#scm_procurement.ScmProcurementQuotationPortalPage,QA-autotest-apply,passw0rd,y,見積管理 / Quotation Management
+#scm_procurement.ScmProcurementQuotationRequestRegistrationPage,QA-autotest-apply,passw0rd,y,本見積依頼（承認フローなし） / Request for Quotation(without Approval Flow)
+#scm_procurement.ScmProcurementOrderManagementPortalPage,QA-autotest-apply,passw0rd,y,発注管理 / Order Management
+#scm_procurement.ScmProcurementPurchaseOrderRegistrationPage,QA-autotest-apply,passw0rd,y,発注依頼 / Purchase Order Application
+#scm_procurement.ScmProcurementCustomOrderPurchaseServicePurchasePage,QA-autotest-apply,passw0rd,y,役務契約 / Purchase Request Application
+#scm_procurement.ScmProgressBasedInspectionManagementPortalPage,QA-autotest-apply,passw0rd,y,出来高管理 / Progress-Based Inspection Management
+#scm_procurement.PlannedOffsetReportManagementPage,QA-autotest-apply,passw0rd,y,立替金登録管理 / Offset Schedule Report Management

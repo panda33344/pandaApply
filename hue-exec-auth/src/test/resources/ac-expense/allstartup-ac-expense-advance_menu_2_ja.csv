@@ -1,0 +1,9 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+Employee Service > 経費管理,ALL_APP,仮払申請,ac_expense.AcExpenseTemporaryPaymentStandardInputPage,Expense-Autotest-app,autopassw0rd,y,仮払申請 / Temporary Payment Request
+Employee Service > 経費管理,ALL_APP,自動車経費事前申請,ac_expense.AcExpenseCarAdvanceRequestStandardInputPage,Expense-Autotest-app,autopassw0rd,y,自動車経費事前申請 / Car Expense Request
+Employee Service > 経費管理,ALL_APP,備品購入事前申請,ac_expense.AcExpenseEquipmentPurchaseAdvanceRequestStandardInputPage,Expense-Autotest-app,autopassw0rd,y,備品購入事前申請 / Equipment Purchase Advance Request

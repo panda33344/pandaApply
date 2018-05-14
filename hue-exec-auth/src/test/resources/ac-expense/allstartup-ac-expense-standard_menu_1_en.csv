@@ -1,0 +1,11 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+Employee Service > Expense Management,ALL_APP,Transportation,ac_expense.AcExpenseShortTransStandardInputPage,Expense-Autotest-app,autopassw0rd,y,交通費精算 / Transportation Expense Application
+Employee Service > Expense Management,ALL_APP,Business Trip,ac_expense.AcExpenseDomesticBizTripStandardInputPage,Expense-Autotest-app,autopassw0rd,y,国内出張精算 / Domesic Business Trip Expense
+Employee Service > Expense Management,ALL_APP,Foreign Business Trip,ac_expense.AcExpenseOverseasBizTripInputPage,Expense-Autotest-app,autopassw0rd,y,海外出張精算 / Overseas Expense Application
+Employee Service > Expense Management,ALL_APP,Long Term Foreign Business Trip,ac_expense.AcExpenseOverseasLongTermBizTripStandardInputPage,Expense-Autotest-app,autopassw0rd,y,長期海外出張精算 / Long Term Overseas Expense Application
+Employee Service > Expense Management,ALL_APP,Entertainment,ac_expense.AcExpenseGeneralEntertainmentInputPage,Expense-Autotest-app,autopassw0rd,y,接待交際費精算 / Entertainment Expenses

@@ -1,0 +1,8 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+AC > Accounts Payable > 契約支払管理,,,ac_paycontract.ContractpaymentmanagementPage,QA-autotest-apply,passw0rd,y,契約支払管理 / Contract Payment Management
+AC > Accounts Payable > 契約支払管理,APP,契約支払登録,ac_paycontract.AcPaycontractManagementInputcontractPaymentRegistrationPage,QA-autotest-apply,passw0rd,y,契約支払登録 / Contract Payment Registration

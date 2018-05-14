@@ -1,0 +1,13 @@
+pathInMenu,menuTypeInPortal,pathInPortal,pageObjectClass,user,password,openable,memo
+# メニュー内での経路,ポータル内でのメニュータイプ,ポータル内での起動経路,対象サービスのページオブジェクト,ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+#,ALL_APP: すべての申請書,-,-,-,-,-,-
+#,APP: フローティングメニュー,-,-,-,-,-,-
+#,SIDE_MENU: サイドメニュー,-,-,-,-,-,-
+#,SERVICE_SETTINGS: サービス設定,-,-,-,-,-,-
+AC > Asset > 資産管理,,,ac_asset.AcAssetManagementPortalPage,QA-autotest-apply,passw0rd,y,資産管理 / Asset Management
+AC > Asset > 資産管理,APP,取得登録申請,ac_asset.AcAssetManagementAcquisitionRegistrationAssetManagementPage,QA-autotest-apply,passw0rd,y,取得登録申請 / Acquisition Registration Application
+AC > Asset > 資産管理,APP,除売却登録申請,ac_asset.AcAssetManagementSaleRegistrationAssetManagementPage,QA-autotest-apply,passw0rd,y,除売却登録申請 / Application for Sale Registration
+AC > Asset > 資産管理,APP,移動登録申請,ac_asset.AcAssetManagementMoveRegistrationStandardPage,QA-autotest-apply,passw0rd,y,移動登録申請 / Move Registration Application
+AC > Asset > Asset Closing Management,,,ac_asset.AcAssetClosingManagementAssetClosingPage,QA-autotest-apply,passw0rd,y,Asset 決算管理 / Asset Closing Management
+AC > Asset > リース契約管理,APP,契約登録申請書を作成,ac_asset.AcAssetLeaseContractRegistrationContractRegistrationInputPage,QA-autotest-apply,passw0rd,y,リース契約登録申請 / Lease Contract Registration
+AC > Asset > リース契約管理,,,ac_asset.AcAssetLeaseAssetManagementPortalLeaseManagementPage,QA-autotest-apply,passw0rd,y,リース契約管理 / Lease Contract Management

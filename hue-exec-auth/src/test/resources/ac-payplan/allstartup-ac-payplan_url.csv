@@ -1,0 +1,7 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+ac_payplan.AcPayplanPortalPaymentportalIndexPage,QA-autotest-payplan,passw0rd,y,支払予定管理 / Payment Plan Management
+ac_payplan.PaymentDSectionUserMappingMaintenancePage,QA-autotest-apply,passw0rd,y,支払責任部門・ユーザー関係マスタメンテナンス
+ac_payplan.AcAccountsPayablePaymentScheduleSettingPage,QA-autotest-apply,passw0rd,y,支払スケジュール設定 / Payment Schedule Setting
+ac_payplan.AcPayplanScheduleInputPaymentSchedulePage,QA-autotest-apply,passw0rd,y,支払スケジュール設定 / Payment Schedule Setting
+ac_payplan.AcPayplanScheduleRuleScheduleRulePage,QA-autotest-apply,passw0rd,y,支払スケジュール設定 / Payment Schedule Setting

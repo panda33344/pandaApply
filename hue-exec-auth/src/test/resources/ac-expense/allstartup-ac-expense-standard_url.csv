@@ -1,0 +1,22 @@
+pageObjectClass,user,password,openable,memo
+# 対象サービスのページオブジェクト(URLを保持),ユーザー,パスワード,開くべきだったらy開くべきでなかったらn,レポート上に表示される項目。テスト実行には影響しない。
+ac_expense.AcExpenseShortTransStandardInputPage,QA-autotest-apply,passw0rd,y,交通費精算 / Short Trans Standard
+ac_expense.AcExpenseShortTransStandardCancelInputPage,QA-autotest-apply,passw0rd,y,交通費精算取消申請
+ac_expense.AcExpenseDomesticBizTripStandardInputPage,QA-autotest-apply,passw0rd,y,国内出張精算 / Domesic Business Trip Expense
+ac_expense.AcExpenseCancellationDomesticBizTripInputPage,QA-autotest-apply,passw0rd,y,国内出張精算取消申請
+ac_expense.AcExpenseOverseasBizTripInputPage,QA-autotest-apply,passw0rd,y,海外出張精算 / Overseas Expense Application
+ac_expense.AcExpenseOverseasBizTripCancellationInputPage,QA-autotest-apply,passw0rd,y,海外出張精算取消申請
+ac_expense.AcExpenseOverseasLongTermBizTripStandardInputPage,QA-autotest-apply,passw0rd,y,長期海外出張精算 / Long Term Overseas Expense Application
+ac_expense.AcExpenseOverseasLongTermBizTripStandardCancelInputPage,QA-autotest-apply,passw0rd,y,長期海外出張精算取消申請
+ac_expense.AcExpenseGeneralEntertainmentInputPage,QA-autotest-apply,passw0rd,y,接待交際費精算 / Entertainment Expenses
+ac_expense.AcExpenseEntertainmentStandardCancellationPage,QA-autotest-apply,passw0rd,y,接待交際費取消申請
+ac_expense.AcExpenseGeneralStandardInputPage,QA-autotest-apply,passw0rd,y,一般経費精算 / General Expense Application
+ac_expense.AcExpenseGeneralStandardCancelInputPage,QA-autotest-apply,passw0rd,y,一般経費精算取消申請
+ac_expense.AcExpenseGeneralTaxiInputPage,QA-autotest-apply,passw0rd,y,タクシー精算 / Taxi Expense Application
+ac_expense.AcExpenseCancellationTaxiExpenseApplicationInputPage,QA-autotest-apply,passw0rd,y,タクシー精算 取消申請
+ac_expense.AcExpenseReportStandardInputPage,QA-autotest-apply,passw0rd,y,経費精算レポート / Expense Report
+ac_expense.AcExpenseReportCancellationInputPage,QA-autotest-apply,passw0rd,y,経費精算レポート 取消申請
+ac_expense.AcExpenseApplicationCarInputPage,QA-autotest-apply,passw0rd,y,自動車精算 / Car
+ac_expense.AcExpenseCarStandardCancelInputPage,QA-autotest-apply,passw0rd,y,自動車精算 取消申請
+ac_expense.AcExpenseEquipmentPurchaseStandardInputPage,QA-autotest-apply,passw0rd,y,備品購入精算 / Equipment Purchase
+ac_expense.AcExpenseEquipmentPurchaseStandardCancelInputPage,QA-autotest-apply,passw0rd,y,備品購入精算取消申請 / Equipment Purchase Cancellation
